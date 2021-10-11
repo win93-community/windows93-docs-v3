@@ -13,7 +13,7 @@ As you can see above, there aren't many other documentation sites with in-depth 
 
 ### How can I contribute?
 
-Know of any other documentation sites? Want to fix incorrect information? Need to write up a new page? Go ahead and open a pull request in [https://github.com/its-pablo/windows93-docs](https://github.com/its-pablo/windows93-docs).
+Know of any other documentation sites? Want to fix incorrect information? Need to write up a new page? Go ahead and open a pull request in [https://github.com/its-pablo/windows93-docs](https://github.com/its-pablo/windows93-docs). More info available [here](intro/github.md).
 
 ### What's this built on?
 

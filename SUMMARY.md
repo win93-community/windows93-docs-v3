@@ -3,9 +3,11 @@
 ## 👣 Introduction <a href="intro" id="intro"></a>
 
 * [Introduction](README.md)
+* [Github](intro/github.md)
 
 ## 💬 Dialogs <a href="dialog" id="dialog"></a>
 
+* [$window](dialog/window.md)
 * [$alert](dialog/alert/README.md)
   * [help](dialog/alert/help.md)
   * [info](dialog/alert/info.md)
