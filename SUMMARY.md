@@ -14,5 +14,9 @@
 
 ## 📁 Filesystem
 
+* [$db](filesystem/db.md)
+* [$store](filesystem/store.md)
+* [$file](filesystem/file.md)
+* [$explorer](filesystem/explorer.md)
 * [$fs](filesystem/fs/README.md)
   * [utils](filesystem/fs/utils.md)
