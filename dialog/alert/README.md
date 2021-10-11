@@ -21,9 +21,9 @@ Shows an alert window that the user can close
 
 ### Subfunctions
 
-| Subfunction     | Description                                                              |
-| --------------- | ------------------------------------------------------------------------ |
-| [help](help.md) | Shows an alert window against a white background that the user can close |
-| error           | TODO                                                                     |
-| progress        | TODO                                                                     |
-| info            | TODO                                                                     |
+| Subfunction             | Description                                                              |
+| ----------------------- | ------------------------------------------------------------------------ |
+| [help](help.md)         | Shows an alert window against a white background that the user can close |
+| [error](error.md)       | TODO                                                                     |
+| [progress](progress.md) | TODO                                                                     |
+| [info](info.md)         | TODO                                                                     |
