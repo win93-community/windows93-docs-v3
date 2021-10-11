@@ -48,7 +48,7 @@
 
 ## ⚙ system
 
-* [$audio](system/usdaudio.md)
+* [$audio](system/audio.md)
 
 ## ⛔ Undocumented <a href="nodoc" id="nodoc"></a>
 
