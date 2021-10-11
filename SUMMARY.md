@@ -33,6 +33,23 @@
 * [$fs](filesystem/fs/README.md)
   * [utils](filesystem/fs/utils.md)
 
+## ▶ Boot
+
+* [$boot](boot/boot/README.md)
+  * [BIOS](boot/boot/bios.md)
+  * [BIOSERROR](boot/boot/bioserror.md)
+  * [BOOTLOG](boot/boot/bootlog.md)
+  * [REINSTALL](boot/boot/reinstall.md)
+  * [TOOLONG](boot/boot/toolong.md)
+  * [VERSION](boot/boot/version.md)
+  * [haserror](boot/boot/haserror.md)
+  * [onerror](boot/boot/onerror.md)
+* [Best Practices](boot/best-practices.md)
+
+## ⚙ system
+
+* [$audio](system/usdaudio.md)
+
 ## ⛔ Undocumented <a href="nodoc" id="nodoc"></a>
 
 * [$menu](nodoc/menu.md)
