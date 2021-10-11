@@ -1,10 +1,12 @@
 ---
-description: Plays audio by name
+description: Play various audio files
 ---
 
 # $audio
 
-## Subfunctions, etc.
+Used to create an AudioObject from a path. This is a wrapper of [Howler.js](http://www.howlerjs.com).
+
+## Subfunctions, etc. (AudioObject)
 
 | Parameter     | Type        | Description                                |
 | ------------- | ----------- | ------------------------------------------ |
