@@ -1,5 +1,3 @@
-# $db
-
 ## About
 
 This is the one function you can use to store files that automatically picks the right thing for you. This function is recommended for storing and reading files. Please note that all file paths should start with /a/.
