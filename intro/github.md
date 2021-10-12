@@ -16,4 +16,26 @@ When contributing, remember to always start a pull request and _never_ push to t
 
 Large and small contributions are appreciated, so please don't hesitate to open an issue asking any questions you may have about the docs or Windows93 itself!
 
-### Guide to makin
+### Guide to creating new pages
+
+New pages should follow the same consistent design as level 2 headers (##):
+
+* Screenshot examples
+* Code examples\*
+* Usage\*
+* Subfunctions, etc\*
+
+Screenshot examples and code examples are allowed to be contributed as tabs: Here is how they should look:
+
+{% tabs %}
+{% tab title="Image" %}
+![Screenshot example](../.gitbook/assets/image.png)
+{% endtab %}
+
+{% tab title="Code" %}
+```javascript
+$alert('Example');
+```
+{% endtab %}
+{% endtabs %}
+
