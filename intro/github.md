@@ -15,3 +15,5 @@ Assets are stored in [this folder](https://github.com/its-pablo/windows93-docs/t
 When contributing, remember to always start a pull request and _never_ push to the `main` branch.
 
 Large and small contributions are appreciated, so please don't hesitate to open an issue asking any questions you may have about the docs or Windows93 itself!
+
+### Guide to makin
