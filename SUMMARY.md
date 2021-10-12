@@ -28,7 +28,16 @@
 
 * [$db](filesystem/db.md)
 * [$store](filesystem/store.md)
-* [$file](filesystem/file.md)
+* [$file](filesystem/file/README.md)
+  * [save](filesystem/file/save.md)
+  * [open](filesystem/file/open.md)
+  * [copy](filesystem/file/copy.md)
+  * [delete](filesystem/file/delete.md)
+  * [download](filesystem/file/download.md)
+  * [format](filesystem/file/format.md)
+  * [move](filesystem/file/move.md)
+  * [rename](filesystem/file/rename.md)
+  * [upload](filesystem/file/upload.md)
 * [$explorer](filesystem/explorer.md)
 * [$fs](filesystem/fs/README.md)
   * [utils](filesystem/fs/utils.md)
@@ -48,6 +57,7 @@
 
 ## ⚙ system
 
+* [le](system/le.md)
 * [$audio](system/audio.md)
 
 ## ⛔ Undocumented <a href="nodoc" id="nodoc"></a>
