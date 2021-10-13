@@ -38,7 +38,8 @@
   * [move](filesystem/file/move.md)
   * [rename](filesystem/file/rename.md)
   * [upload](filesystem/file/upload.md)
-* [$explorer](filesystem/explorer.md)
+* [$explorer](filesystem/explorer/README.md)
+  * [refresh](filesystem/explorer/refresh.md)
 * [$fs](filesystem/fs/README.md)
   * [utils](filesystem/fs/utils.md)
 

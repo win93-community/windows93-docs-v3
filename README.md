@@ -9,7 +9,7 @@ This website will allow for you to continuously learn about the Windows93 JavaSc
 * [https://yttriferous.dev/windows93-js-docs/old.html](https://yttriferous.dev/windows93-js-docs/old.html)
 * [http://www.windows93.net/docs](http://www.windows93.net/docs)
 
-As you can see above, there aren't many other documentation sites with in-depth information about Windows93. This documentation site strives to be the best out of all 3.
+As you can see above, there aren't many other documentation sites with in-depth information about Windows93. This documentation site strives to be the best out of all 3. Many pages made here are based on windows93.net/docs, which is open-sourced at [https://github.com/domenicw1/Win93\_JS_Docs](https://github.com/domenicw1/Win93\_JS_Docs).
 
 ### How can I contribute?
 
