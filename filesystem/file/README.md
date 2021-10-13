@@ -17,7 +17,7 @@ This is the one function you can use to store files that automatically picks the
 | [move](move.md)         | Function | Moves a file or folder to a different location |
 | [rename](rename.md)     | Function | Changes the name of a file or folder           |
 | [upload](upload.md)     | Function | Shows browser file upload dialog               |
-| getUrl                  | Function |                                                |
+| [getUrl](geturl.md)     | Function | Retrieves file data                            |
 | iterateFolder           | Function |                                                |
 | getTruePath             | Function |                                                |
 | scan                    | Function |                                                |
