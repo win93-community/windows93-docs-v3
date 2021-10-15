@@ -6,7 +6,7 @@ description: Shows an alert window that the user can close
 
 ### Examples
 
-![](../../.gitbook/assets/image.png)
+![](<../../.gitbook/assets/image (1).png>)
 
 Shows an alert window that the user can close
 

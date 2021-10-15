@@ -29,7 +29,7 @@ Screenshot examples and code examples are allowed to be contributed as tabs: Her
 
 {% tabs %}
 {% tab title="Image" %}
-![Screenshot example](../.gitbook/assets/image.png)
+![Screenshot example](<../.gitbook/assets/image (1).png>)
 {% endtab %}
 
 {% tab title="Code" %}

@@ -7,6 +7,10 @@
 
 ## 💬 Dialogs <a href="dialog" id="dialog"></a>
 
+* [$notif](dialog/notif.md)
+* [$confirm](dialog/confirm.md)
+* [$prompt](dialog/prompt.md)
+* [$confirm](dialog/confirm-1.md)
 * [$window](dialog/window/README.md)
   * [instances](dialog/window/instances.md)
   * [current](dialog/window/current.md)
