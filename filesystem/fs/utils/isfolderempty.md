@@ -1,0 +1,2 @@
+# isFolderEmpty
+

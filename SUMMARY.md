@@ -47,7 +47,19 @@
 * [$explorer](filesystem/explorer/README.md)
   * [refresh](filesystem/explorer/refresh.md)
 * [$fs](filesystem/fs/README.md)
-  * [utils](filesystem/fs/utils.md)
+  * [utils](filesystem/fs/utils/README.md)
+    * [find](filesystem/fs/utils/find.md)
+    * [resolvePath](filesystem/fs/utils/resolvepath.md)
+    * [getMenuOpenWith](filesystem/fs/utils/getmenuopenwith.md)
+    * [getFileMenu](filesystem/fs/utils/getfilemenu.md)
+    * [replaceExt](filesystem/fs/utils/replaceext.md)
+    * [isFolder](filesystem/fs/utils/isfolder.md)
+    * [isFolderEmpty](filesystem/fs/utils/isfolderempty.md)
+    * [isShortcut](filesystem/fs/utils/isshortcut.md)
+    * [isDownloadable](filesystem/fs/utils/isdownloadable.md)
+    * [getName](filesystem/fs/utils/getname.md)
+    * [getFileName](filesystem/fs/utils/getfilename.md)
+    * [getFolderName](filesystem/fs/utils/getfoldername.md)
 
 ## ▶ Boot
 
@@ -73,10 +85,11 @@
   * [\_apps](system/le/apps.md)
 * [$audio](system/audio.md)
 
-## ⛔ Undocumented <a href="nodoc" id="nodoc"></a>
-
-* [$menu](nodoc/menu.md)
-
 ## 🤖 Build 93 <a href="build93" id="build93"></a>
 
 * [Custom skin](build93/skin.md)
+
+## ⛔ Undocumented <a href="nodoc" id="nodoc"></a>
+
+* [$menu](nodoc/menu.md)
+* [$form](nodoc/usdform.md)

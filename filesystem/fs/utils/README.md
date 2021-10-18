@@ -2,32 +2,32 @@
 
 ### Subfunctions, etc.
 
-| Name            | Type | Definition |
-| --------------- | ---- | ---------- |
-| find            |      |            |
-| resolvePath     |      |            |
-| getMenuOpenWith |      |            |
-| getFileMenu     |      |            |
-| replaceExt      |      |            |
-| isFolder        |      |            |
-| isFolderEmpty   |      |            |
-| isShortcut      |      |            |
-| isDownloadable  |      |            |
-| getName         |      |            |
-| getFileName     |      |            |
-| getFolderName   |      |            |
-| getFolderPath   |      |            |
-| getExt          |      |            |
-| getMime         |      |            |
-| getIcon         |      |            |
-| normalizeIcon   |      |            |
-| getInfo         |      |            |
-| getOpeners      |      |            |
-| parseAccept     |      |            |
-| getPathObj      |      |            |
-| exist           |      |            |
-| getFolderObj    |      |            |
-| iteratePath     |      |            |
+| Name            | Type    | Definition |
+| --------------- | ------- | ---------- |
+| [find](find.md) |         |            |
+| resolvePath     |         |            |
+| getMenuOpenWith |         |            |
+| getFileMenu     |         |            |
+| replaceExt      |         |            |
+| isFolder        | Boolean |            |
+| isFolderEmpty   |         |            |
+| isShortcut      |         |            |
+| isDownloadable  |         |            |
+| getName         |         |            |
+| getFileName     |         |            |
+| getFolderName   |         |            |
+| getFolderPath   |         |            |
+| getExt          |         |            |
+| getMime         |         |            |
+| getIcon         |         |            |
+| normalizeIcon   |         |            |
+| getInfo         |         |            |
+| getOpeners      |         |            |
+| parseAccept     |         |            |
+| getPathObj      |         |            |
+| exist           |         |            |
+| getFolderObj    |         |            |
+| iteratePath     |         |            |
 
 ### Return
 
