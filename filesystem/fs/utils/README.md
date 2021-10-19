@@ -2,32 +2,32 @@
 
 ### Subfunctions, etc.
 
-| Name            | Type    | Definition |
-| --------------- | ------- | ---------- |
-| [find](find.md) |         |            |
-| resolvePath     |         |            |
-| getMenuOpenWith |         |            |
-| getFileMenu     |         |            |
-| replaceExt      |         |            |
-| isFolder        | Boolean |            |
-| isFolderEmpty   |         |            |
-| isShortcut      |         |            |
-| isDownloadable  |         |            |
-| getName         |         |            |
-| getFileName     |         |            |
-| getFolderName   |         |            |
-| getFolderPath   |         |            |
-| getExt          |         |            |
-| getMime         |         |            |
-| getIcon         |         |            |
-| normalizeIcon   |         |            |
-| getInfo         |         |            |
-| getOpeners      |         |            |
-| parseAccept     |         |            |
-| getPathObj      |         |            |
-| exist           |         |            |
-| getFolderObj    |         |            |
-| iteratePath     |         |            |
+| Name                                  | Type    | Definition |
+| ------------------------------------- | ------- | ---------- |
+| [find](find.md)                       |         |            |
+| [resolvePath](resolvepath.md)         |         |            |
+| [getMenuOpenWith](getmenuopenwith.md) |         |            |
+| [getFileMenu](getfilemenu.md)         |         |            |
+| [replaceExt](replaceext.md)           |         |            |
+| [isFolder](isfolder.md)               | Boolean |            |
+| [isFolderEmpty](isfolderempty.md)     |         |            |
+| [isShortcut](isshortcut.md)           |         |            |
+| [isDownloadable](isdownloadable.md)   |         |            |
+| [getName](getname.md)                 |         |            |
+| [getFileName](getfilename.md)         |         |            |
+| [getFolderName](getfoldername.md)     |         |            |
+| [getFolderPath](getfolderpath.md)     |         |            |
+| [getExt](getext.md)                   |         |            |
+| [getMime](getmime.md)                 |         |            |
+| [getIcon](geticon.md)                 |         |            |
+| [normalizeIcon](normalizeicon.md)     |         |            |
+| [getInfo](getinfo.md)                 |         |            |
+| [getOpeners](getopeners.md)           |         |            |
+| [parseAccept](parseaccept.md)         |         |            |
+| [getPathObj](getpathobj.md)           |         |            |
+| [exist](exist.md)                     |         |            |
+| [getFolderObj](getfolderobj.md)       |         |            |
+| [iteratePath](iteratepath.md)         |         |            |
 
 ### Return
 

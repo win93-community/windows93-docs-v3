@@ -60,6 +60,18 @@
     * [getName](filesystem/fs/utils/getname.md)
     * [getFileName](filesystem/fs/utils/getfilename.md)
     * [getFolderName](filesystem/fs/utils/getfoldername.md)
+    * [getFolderPath](filesystem/fs/utils/getfolderpath.md)
+    * [getExt](filesystem/fs/utils/getext.md)
+    * [getMime](filesystem/fs/utils/getmime.md)
+    * [getIcon](filesystem/fs/utils/geticon.md)
+    * [normalizeIcon](filesystem/fs/utils/normalizeicon.md)
+    * [getInfo](filesystem/fs/utils/getinfo.md)
+    * [getOpeners](filesystem/fs/utils/getopeners.md)
+    * [parseAccept](filesystem/fs/utils/parseaccept.md)
+    * [getPathObj](filesystem/fs/utils/getpathobj.md)
+    * [exist](filesystem/fs/utils/exist.md)
+    * [getFolderObj](filesystem/fs/utils/getfolderobj.md)
+    * [iteratePath](filesystem/fs/utils/iteratepath.md)
 
 ## ▶ Boot
 
