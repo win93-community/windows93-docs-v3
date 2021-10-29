@@ -11,7 +11,6 @@
 * [$notif](dialog/notif.md)
 * [$confirm](dialog/confirm.md)
 * [$prompt](dialog/prompt.md)
-* [$confirm](dialog/confirm-1.md)
 * [$window](dialog/window/README.md)
   * [instances](dialog/window/instances.md)
   * [current](dialog/window/current.md)
@@ -28,6 +27,7 @@
   * [info](dialog/alert/info.md)
   * [error](dialog/alert/error.md)
   * [progress](dialog/alert/progress.md)
+* [$log](dialog/log.md)
 
 ## 📁 Filesystem
 
