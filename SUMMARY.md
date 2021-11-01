@@ -27,7 +27,28 @@
   * [info](dialog/alert/info.md)
   * [error](dialog/alert/error.md)
   * [progress](dialog/alert/progress.md)
-* [$log](dialog/log.md)
+* [$log](dialog/log/README.md)
+  * [Params](dialog/log/params/README.md)
+    * [text](dialog/log/params/text.md)
+    * [unknown](dialog/log/params/unknown-1.md)
+    * [unknown](dialog/log/params/unknown-2.md)
+  * [Sub](dialog/log/sub/README.md)
+    * [clear](dialog/log/sub/clear.md)
+    * [code](dialog/log/sub/code.md)
+    * [pass](dialog/log/sub/pass.md)
+    * [fail](dialog/log/sub/fail.md)
+    * [info](dialog/log/sub/info.md)
+    * [italic](dialog/log/sub/italic.md)
+    * [bold](dialog/log/sub/bold.md)
+    * [white](dialog/log/sub/white.md)
+    * [yellow](dialog/log/sub/yellow.md)
+    * [cyan](dialog/log/sub/cyan.md)
+    * [magenta](dialog/log/sub/magenta.md)
+    * [blue](dialog/log/sub/blue.md)
+    * [red](dialog/log/sub/red.md)
+    * [succes](dialog/log/sub/succes.md)
+    * [green](dialog/log/sub/green.md)
+    * [error](dialog/log/sub/error.md)
 
 ## 📁 Filesystem
 
@@ -103,5 +124,6 @@
 
 ## ⛔ Undocumented <a href="nodoc" id="nodoc"></a>
 
+* [$extend](nodoc/extend.md)
 * [$menu](nodoc/menu.md)
 * [$form](nodoc/usdform.md)
