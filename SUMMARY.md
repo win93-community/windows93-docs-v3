@@ -4,11 +4,14 @@
 
 * [Introduction](README.md)
 * [Github](intro/github.md)
-* [Todo](intro/todo.md)
+* [Terminology](intro/terminology.md)
 
 ## 💬 Dialogs <a href="dialog" id="dialog"></a>
 
-* [$notif](dialog/notif.md)
+* [$notif](dialog/notif/README.md)
+  * [Params](dialog/notif/params/README.md)
+    * [text](dialog/notif/params/text.md)
+    * [title](dialog/notif/params/title.md)
 * [$confirm](dialog/confirm.md)
 * [$prompt](dialog/prompt.md)
 * [$window](dialog/window/README.md)
@@ -34,10 +37,19 @@
     * [unknown](dialog/log/params/unknown-2.md)
   * [Sub](dialog/log/sub/README.md)
     * [clear](dialog/log/sub/clear.md)
-    * [code](dialog/log/sub/code.md)
-    * [pass](dialog/log/sub/pass.md)
-    * [fail](dialog/log/sub/fail.md)
-    * [info](dialog/log/sub/info.md)
+    * [repeat](dialog/log/sub/repeat.md)
+    * [code](dialog/log/sub/code/README.md)
+      * [Params](dialog/log/sub/code/params/README.md)
+        * [text](dialog/log/sub/code/params/text.md)
+    * [pass](dialog/log/sub/pass/README.md)
+      * [Params](dialog/log/sub/pass/params/README.md)
+        * [text](dialog/log/sub/pass/params/text.md)
+    * [fail](dialog/log/sub/fail/README.md)
+      * [Params](dialog/log/sub/fail/params/README.md)
+        * [text](dialog/log/sub/fail/params/text.md)
+    * [info](dialog/log/sub/info/README.md)
+      * [Params](dialog/log/sub/info/params/README.md)
+        * [text](dialog/log/sub/info/params/text.md)
     * [italic](dialog/log/sub/italic.md)
     * [bold](dialog/log/sub/bold.md)
     * [white](dialog/log/sub/white.md)
@@ -48,7 +60,8 @@
     * [red](dialog/log/sub/red.md)
     * [succes](dialog/log/sub/succes.md)
     * [green](dialog/log/sub/green.md)
-    * [error](dialog/log/sub/error.md)
+    * [error](dialog/log/sub/error/README.md)
+      * [Page 1](dialog/log/sub/error/page-1.md)
 
 ## 📁 Filesystem
 
@@ -117,9 +130,12 @@
   * [\_settings](system/le/settings.md)
   * [\_apps](system/le/apps.md)
 * [$audio](system/audio.md)
+* [$loader](system/loader.md)
+* [$kernel](system/kernel.md)
 
 ## 🤖 Build 93 <a href="build93" id="build93"></a>
 
+* [About](build93/info.md)
 * [Custom skin](build93/skin.md)
 
 ## ⛔ Undocumented <a href="nodoc" id="nodoc"></a>

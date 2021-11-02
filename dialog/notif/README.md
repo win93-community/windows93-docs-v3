@@ -12,7 +12,7 @@ description: Displays a notification
 
 {% tabs %}
 {% tab title="Screenshot" %}
-![](../.gitbook/assets/image.png)
+![](../../.gitbook/assets/image.png)
 {% endtab %}
 
 {% tab title="Code" %}
@@ -24,15 +24,11 @@ $notif('An example notification', 'Test')
 
 ### Usage
 
-
+`$notif(text, title)`
 
 ### Parameters
 
-|   |   |   |
-| - | - | - |
-|   |   |   |
-|   |   |   |
-|   |   |   |
+<table><thead><tr><th>Name</th><th data-type="select">Type</th><th>Description</th></tr></thead><tbody><tr><td><a href="params/text.md">text</a></td><td></td><td>The text to be displayed. Supports HTML.</td></tr><tr><td><a href="params/title.md">title</a></td><td></td><td>Title of notification, displays above and in bold</td></tr></tbody></table>
 
 ### Return
 
