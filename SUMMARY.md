@@ -59,9 +59,12 @@
     * [blue](dialog/log/sub/blue.md)
     * [red](dialog/log/sub/red.md)
     * [succes](dialog/log/sub/succes.md)
-    * [green](dialog/log/sub/green.md)
+    * [green](dialog/log/sub/green/README.md)
+      * [Params](dialog/log/sub/green/params/README.md)
+        * [text1](dialog/log/sub/green/params/text1.md)
     * [error](dialog/log/sub/error/README.md)
-      * [Page 1](dialog/log/sub/error/page-1.md)
+      * [Params](dialog/log/sub/error/params/README.md)
+        * [text](dialog/log/sub/error/params/text.md)
 
 ## 📁 Filesystem
 
@@ -124,13 +127,15 @@
 
 * [le](system/le/README.md)
   * [\_sound](system/le/sound.md)
-  * [\_key](system/le/key.md)
+  * [\_path](system/le/path.md)
   * [\_get](system/le/get.md)
   * [\_dom](system/le/dom.md)
   * [\_settings](system/le/settings.md)
   * [\_apps](system/le/apps.md)
 * [$audio](system/audio.md)
-* [$loader](system/loader.md)
+* [$loader](system/loader/README.md)
+  * [Params](system/loader/params.md)
+  * [Sub](system/loader/sub.md)
 * [$kernel](system/kernel.md)
 
 ## 🤖 Build 93 <a href="build93" id="build93"></a>
@@ -143,3 +148,6 @@
 * [$extend](nodoc/extend.md)
 * [$menu](nodoc/menu.md)
 * [$form](nodoc/usdform.md)
+* [$url](nodoc/usdurl.md)
+* [$io](nodoc/usdio.md)
+* [$box](nodoc/usdbox.md)
