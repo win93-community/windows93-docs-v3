@@ -58,4 +58,4 @@
 | msg*              | String/HTML      | Message in alert                                                |
 | img*              | String/Path      | Image used in alert                                             |
 
-/* Only works on $alert, $confirm, and $prompt
+\* Only works on $alert, $confirm, and $prompt
