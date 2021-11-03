@@ -1,5 +1,9 @@
 # Custom skin
 
+{% hint style="danger" %}
+**Build93 is no longer public. Learn more **[**here.**](info.md)****
+{% endhint %}
+
 ### About
 
 Currently, there is no way to create a custom skin except for using `$loader.css` or `le._iconset` . Both are discouraged, however `le._iconset` is tolerated for changing a couple icons for an app. If you wish to create a standalone iconset, please submit it [here](skin.md#about). When testing the iconset, using the template below is recommended. When submitting to Build93, it is required that you provide an icon for each and every item below. These icons are used by system42, and are therefore able to provide error if no icon is specified for the called icon.
@@ -174,5 +178,4 @@ Currently, there is no way to create a custom skin except for using `$loader.css
     ├── image.png
     ├── model.png
     └── application2.png
-
 ```

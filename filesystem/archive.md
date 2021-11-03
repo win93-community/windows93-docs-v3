@@ -1,4 +1,4 @@
-# $extend
+# $archive
 
 {% hint style="info" %}
 **Undocumented**
