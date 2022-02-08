@@ -1,10 +1,10 @@
 # WinObject
 
 | Parameter         | Type             | Description                                                     |
-|-------------------|------------------|-----------------------------------------------------------------|
+| ----------------- | ---------------- | --------------------------------------------------------------- |
 | title             | String           | The title of the window                                         |
 | html              | String/HTML      | HTML of window                                                  |
-| icon              | String/Path      | Undocumented, confusion about this parameter                    |
+| icon              | String/Path      | Icon displayed in status bar and taskbar                        |
 | help              | String/HTML      | Text or html that shows up when the help icon is clicked        |
 | url               | String/URL       | The url that the window should iframe.                          |
 | menu              | Object           | Undocumented                                                    |
@@ -55,7 +55,7 @@
 | dest              | Object           | Undocumented                                                    |
 | dock              | Object           | Undocumented                                                    |
 | contextmenu       | Object           | Undocumented                                                    |
-| msg*              | String/HTML      | Message in alert                                                |
-| img*              | String/Path      | Image used in alert                                             |
+| msg\*             | String/HTML      | Message in alert                                                |
+| img\*             | String/Path      | Image used in alert                                             |
 
 \* Only works on $alert, $confirm, and $prompt

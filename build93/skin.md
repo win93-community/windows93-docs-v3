@@ -1,7 +1,7 @@
 # Custom skin
 
 {% hint style="danger" %}
-**Build93 is no longer public. Learn more **[**here.**](info.md)****
+**Build93 is no longer public. Learn more** [**here.**](info.md)****
 {% endhint %}
 
 ### About
