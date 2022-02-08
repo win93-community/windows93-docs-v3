@@ -4,25 +4,25 @@
 
 This is the one function you can use to store files that automatically picks the right thing for you. This function is recommended for storing and reading files. Please note that all file paths should start with /a/.
 
-### Subfunctions, etc.
+### Properties
 
-| Name                    | Type     | Description                                    |
-| ----------------------- | -------- | ---------------------------------------------- |
-| [save](save.md)         | Function | This is used to save a file on /a/.            |
-| [open](open.md)         | Function | Reads the content of a file.                   |
-| [copy](copy.md)         | Function | Copies a file or folder to another location    |
-| [delete](delete.md)     | Function | Deletes a file.                                |
-| [download](download.md) | Function | Downloads a file to your actual computer       |
-| [format](format.md)     | Function | Removes all user data                          |
-| [move](move.md)         | Function | Moves a file or folder to a different location |
-| [rename](rename.md)     | Function | Changes the name of a file or folder           |
-| [upload](upload.md)     | Function | Shows browser file upload dialog               |
-| [getUrl](geturl.md)     | Function | Retrieves file data                            |
-| iterateFolder           | Function |                                                |
-| getTruePath             | Function |                                                |
-| scan                    | Function |                                                |
-| onDrop                  | Function |                                                |
-| setDotFolders           | Function |                                                |
+| Name                               | Type     | Description                                    |
+| ---------------------------------- | -------- | ---------------------------------------------- |
+| [save](properties/save.md)         | Function | This is used to save a file on /a/.            |
+| [open](properties/open.md)         | Function | Reads the content of a file.                   |
+| [copy](properties/copy.md)         | Function | Copies a file or folder to another location    |
+| [delete](properties/delete.md)     | Function | Deletes a file.                                |
+| [download](properties/download.md) | Function | Downloads a file to your actual computer       |
+| [format](properties/format.md)     | Function | Removes all user data                          |
+| [move](properties/move.md)         | Function | Moves a file or folder to a different location |
+| [rename](properties/rename.md)     | Function | Changes the name of a file or folder           |
+| [upload](properties/upload.md)     | Function | Shows browser file upload dialog               |
+| [getUrl](properties/geturl.md)     | Function | Retrieves file data                            |
+| iterateFolder                      | Function |                                                |
+| getTruePath                        | Function |                                                |
+| scan                               | Function |                                                |
+| onDrop                             | Function |                                                |
+| setDotFolders                      | Function |                                                |
 
 ### Return output
 

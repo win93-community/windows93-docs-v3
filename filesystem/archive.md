@@ -1,7 +1,11 @@
+---
+description: Useful api for creating zip files.
+---
+
 # $archive
 
-{% hint style="info" %}
-**Undocumented**
+### About
 
-Reason: Coming soon
-{% endhint %}
+Easily pack files into a zip file and download them with the `$archive` api.
+
+###

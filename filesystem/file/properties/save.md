@@ -9,7 +9,7 @@ Remember: You can only store files on the `a` drive. Attempting to store on anot
 {% endhint %}
 
 {% hint style="danger" %}
-**There will be a notification shown whenever a file is saved using this function. There is no way around it other than using **[**$db**](../db.md)** or **[**$store**](../store.md)** instead.**
+**There will be a notification shown whenever a file is saved using this function. There is no way around it other than using** [**$db**](../../db.md) **or** [**$store**](../../store.md) **instead.**
 {% endhint %}
 
 `$file.save(path, content, callback)`
@@ -20,6 +20,6 @@ Remember: You can only store files on the `a` drive. Attempting to store on anot
 | content             | String/Object | The content of the file. When an object is specified. it will be turned into a string (however you can still read it as an object using $file.open). |
 | callback (optional) | Function      | Called with the filename when the file has finished saving.                                                                                          |
 
-**Code Example:** 
+**Code Example:**&#x20;
 
 `$file.save("/a/test.txt", "hello world")`
