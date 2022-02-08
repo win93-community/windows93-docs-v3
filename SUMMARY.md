@@ -115,19 +115,6 @@
     * [iteratePath](filesystem/fs/utils/iteratepath.md)
 * [$archive](filesystem/archive.md)
 
-## ▶ Boot
-
-* [$boot](boot/boot/README.md)
-  * [BIOS](boot/boot/bios.md)
-  * [BIOSERROR](boot/boot/bioserror.md)
-  * [BOOTLOG](boot/boot/bootlog.md)
-  * [REINSTALL](boot/boot/reinstall.md)
-  * [TOOLONG](boot/boot/toolong.md)
-  * [VERSION](boot/boot/version.md)
-  * [haserror](boot/boot/haserror.md)
-  * [onerror](boot/boot/onerror.md)
-* [Best Practices](boot/best-practices.md)
-
 ## ⚙ system
 
 * [le](system/le/README.md)
@@ -168,6 +155,17 @@
   * [Params](system/loader/params.md)
   * [Properties](system/loader/sub.md)
 * [$kernel](system/kernel.md)
+* [$boot](system/boot/README.md)
+  * [Properties](system/boot/properties/README.md)
+    * [BIOS](system/boot/properties/bios.md)
+    * [BIOSERROR](system/boot/properties/bioserror.md)
+    * [BOOTLOG](system/boot/properties/bootlog.md)
+    * [REINSTALL](system/boot/properties/reinstall.md)
+    * [TOOLONG](system/boot/properties/toolong.md)
+    * [VERSION](system/boot/properties/version.md)
+    * [haserror](system/boot/properties/haserror.md)
+    * [onerror](system/boot/properties/onerror.md)
+  * [Best Practices](system/boot/best-practices.md)
 
 ## ⛔ Undocumented <a href="#nodoc" id="nodoc"></a>
 
