@@ -169,20 +169,6 @@
   * [Properties](system/loader/sub.md)
 * [$kernel](system/kernel.md)
 
-## 🗣 Javascript basics <a href="#js" id="js"></a>
-
-* [Types](js/types/README.md)
-  * [Strings](js/types/strings.md)
-  * [Integers](js/types/integers.md)
-  * [Booleans](js/types/booleans.md)
-  * [Objects](js/types/objects.md)
-  * [Special Cases](js/types/special-cases.md)
-
-## 🤖 Build 93 <a href="#build93" id="build93"></a>
-
-* [About](build93/info.md)
-* [Custom skin](build93/skin.md)
-
 ## ⛔ Undocumented <a href="#nodoc" id="nodoc"></a>
 
 * [$extend](nodoc/extend.md)
