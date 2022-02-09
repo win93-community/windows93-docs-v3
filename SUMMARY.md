@@ -33,6 +33,8 @@
     * [menu](dialog/window/winobject/menu.md)
     * [header](dialog/window/winobject/header.md)
     * [footer](dialog/window/winobject/footer.md)
+    * [width](dialog/window/winobject/width.md)
+    * [height](dialog/window/winobject/height.md)
 * [$alert](dialog/alert/README.md)
   * [Sub](dialog/alert/sub/README.md)
     * [help](dialog/alert/sub/help.md)
