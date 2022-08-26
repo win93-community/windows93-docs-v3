@@ -172,6 +172,7 @@
         * [exist](filesystem/fs/properties/utils/properties/exist.md)
         * [getFolderObj](filesystem/fs/properties/utils/properties/getfolderobj.md)
         * [iteratePath](filesystem/fs/properties/utils/properties/iteratepath.md)
+* [$editor](filesystem/editor.md)
 * [$archive](filesystem/archive.md)
 
 ## ⚙ system
