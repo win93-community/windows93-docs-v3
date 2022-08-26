@@ -4,16 +4,16 @@
 
 *   Status bar: top of the window
 
-    ![](../.gitbook/assets/statusbar.png)
+    <img src="../.gitbook/assets/statusbar.png" alt="" data-size="original">
 *   Taskbar: bottom of screen
 
-    ![](../.gitbook/assets/taskbar.png)
+    <img src="../.gitbook/assets/taskbar.png" alt="" data-size="original">
 *   Start button: bottom left of screen
 
-    ![](<../.gitbook/assets/start button.png>)
+    <img src="../.gitbook/assets/start button.png" alt="" data-size="original">
 *   Explorer: file explorer window - NOT the Cat Explorer app
 
-    ![](<../.gitbook/assets/explorer- cdrive.png>)
+    <img src="../.gitbook/assets/explorer- cdrive.png" alt="" data-size="original">
 
 ### JS terminology
 

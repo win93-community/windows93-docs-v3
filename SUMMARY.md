@@ -3,6 +3,7 @@
 ## 👣 Introduction <a href="#intro" id="intro"></a>
 
 * [Introduction](README.md)
+* [History](intro/history.md)
 * [Github](intro/github.md)
 * [Terminology](intro/terminology.md)
 
@@ -174,6 +175,7 @@
 
 ## ⚙ system
 
+* [system42](system/system42.md)
 * [le](system/le/README.md)
   * [Properties](system/le/properties/README.md)
     * [\_sound](system/le/properties/sound.md)
@@ -211,6 +213,7 @@
     * [\_fx](system/le/properties/\_fx.md)
     * [\_icons](system/le/properties/\_icons.md)
     * [\_selected](system/le/properties/\_selected.md)
+* [$kernel](system/kernel.md)
 * [$audio](system/audio/README.md)
   * [Params](system/audio/params/README.md)
     * [path](system/audio/params/path.md)
@@ -254,7 +257,6 @@
 
 ## ⛔ Undocumented <a href="#nodoc" id="nodoc"></a>
 
-* [$kernel](nodoc/kernel.md)
 * [$extend](nodoc/extend.md)
 * [$menu](nodoc/menu.md)
 * [$form](nodoc/usdform.md)
