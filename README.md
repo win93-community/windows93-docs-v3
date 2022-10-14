@@ -19,7 +19,7 @@ As you can see above, there aren't many other documentation sites with in-depth 
 
 ### How can I contribute?
 
-Know of any other documentation sites? Want to fix incorrect information? Need to write up a new page? Go ahead and open a pull request in [https://github.com/its-pablo/windows93-docs](https://github.com/its-pablo/windows93-docs). More info available [here](intro/github.md).
+Know of any other documentation sites? Want to fix incorrect information? Need to write up a new page? Go ahead and open a pull request in [https://github.com/its-pablo/windows93-docs](https://github.com/its-pablo/windows93-docs). Additionally, if you plan on contributing a lot, I can add you to the GitBook organization that way you can edit things using an actual GUI and not notepad :woozy\_face:
 
 ### What's this built on?
 

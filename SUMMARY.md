@@ -4,7 +4,6 @@
 
 * [Introduction](README.md)
 * [History](intro/history.md)
-* [Github](intro/github.md)
 * [Terminology](intro/terminology.md)
 
 ## 💬 Dialogs <a href="#dialog" id="dialog"></a>
