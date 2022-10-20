@@ -85,7 +85,7 @@
     * [img](dialog/window/winobject/img.md)
 * [$alert](dialog/alert/README.md)
   * [Params](dialog/alert/params/README.md)
-    * [options](dialog/window/winobject/README.md)
+    *
     * [callback](dialog/alert/params/callback.md)
   * [Properties](dialog/alert/properties/README.md)
     * [help](dialog/alert/properties/help.md)
