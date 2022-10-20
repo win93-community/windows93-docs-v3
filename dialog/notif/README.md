@@ -26,9 +26,9 @@ $notif('An example notification', 'Test')
 
 `$notif(text, title)`
 
-### Parameters
+### [Parameters](params/)
 
-<table><thead><tr><th>Name</th><th data-type="select">Type</th><th>Description</th></tr></thead><tbody><tr><td><a href="params/text.md">text</a></td><td></td><td>The text to be displayed. Supports HTML.</td></tr><tr><td><a href="params/title.md">title</a></td><td></td><td>Title of notification, displays above and in bold</td></tr></tbody></table>
+<table><thead><tr><th>Name</th><th data-type="select" data-multiple>Type</th><th>Description</th></tr></thead><tbody><tr><td><a href="params/text.md">text</a></td><td></td><td>The text to be displayed. Supports HTML.</td></tr><tr><td><a href="params/title.md">title</a></td><td></td><td>Title of notification, displays above and in bold</td></tr></tbody></table>
 
 ### Return
 

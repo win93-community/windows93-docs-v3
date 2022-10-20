@@ -1,6 +1,6 @@
 # Params
 
-| Parameter               | Type                                    | Remarks                                                                                                                                         |
-| ----------------------- | --------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
-| [options](options.md)   | String or [WinObject](broken-reference) | The text to display. Can also be a WinObject with a msg (and icon) property, to set more specific options. HTML is supported inside the string. |
-| [callback](callback.md) | Function                                | The callback for the function. Called with true if user presses OK.                                                                             |
+| Parameter               | Type                                                                                                                        | Remarks                                                                                                                                            |
+| ----------------------- | --------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| options                 | String or [WinObject](https://github.com/its-pablo/windows93-docs/blob/main/dialog/alert/params/broken-reference/README.md) | The text to display. Can also be a WinObject with a `msg` (and `img`) property, to set more specific options. HTML is supported inside the string. |
+| [callback](callback.md) | Function                                                                                                                    | The callback for the function. Called with true if user presses OK.                                                                                |
