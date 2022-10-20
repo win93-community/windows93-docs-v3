@@ -272,6 +272,11 @@
     * [query](utils/url/properties/query.md)
 * [$state](utils/state/README.md)
   * [Methods](utils/state/methods.md)
+* [$clip](utils/clip/README.md)
+  * [Methods](utils/clip/methods/README.md)
+    * [copy](utils/clip/methods/copy/README.md)
+      * [Params](utils/clip/methods/copy/params/README.md)
+        * [el](utils/clip/methods/copy/params/el.md)
 * [🗑 $dom](utils/dom.md)
 * [🗑 $iframe](utils/iframe.md)
 
