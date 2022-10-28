@@ -4,7 +4,7 @@
 
 ## 👣 Introduction <a href="#intro" id="intro"></a>
 
-* [Introduction](<README (1).md>)
+* [Introduction](intro/readme.md)
 * [A Brief History](intro/history.md)
 * [Terminology](intro/terminology.md)
 
@@ -296,13 +296,7 @@
     * [checkFavicon](utils/url/properties/checkfavicon.md)
     * [query](utils/url/properties/query.md)
 * [$state](utils/state/README.md)
-  * [Methods](utils/state/methods/README.md)
-    * [wait](utils/state/methods/wait.md)
-    * [isLoading](utils/state/methods/isloading.md)
-    * [loading](utils/state/methods/loading.md)
-    * [loaded](utils/state/methods/loaded.md)
-    * [pause](utils/state/methods/pause.md)
-    * [play](utils/state/methods/play.md)
+  * [Methods](utils/state/methods.md)
 * [$clip](utils/clip/README.md)
   * [Methods](utils/clip/methods/README.md)
     * [copy](utils/clip/methods/copy/README.md)
