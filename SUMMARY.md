@@ -1,10 +1,9 @@
 # Table of contents
 
-* [🥳 V3](README.md)
-
 ## 👣 Introduction <a href="#intro" id="intro"></a>
 
-* [Introduction](intro/introduction.md)
+* [Introduction](README.md)
+* [🥳 V3](intro/V3.md)
 * [A Brief History](intro/history.md)
 * [Terminology](intro/terminology.md)
 
