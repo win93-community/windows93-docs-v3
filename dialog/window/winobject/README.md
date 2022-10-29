@@ -1,61 +1,61 @@
-# WinObject
+# cfg
 
-| Parameter                                 | Type             | Description                                                     |
-| ----------------------------------------- | ---------------- | --------------------------------------------------------------- |
-| [title](title.md)                         | String           | The title of the window                                         |
-| [html](html.md)                           | String/HTML      | HTML of window                                                  |
-| [icon](icon.md)                           | String/Path      | Icon displayed in status bar and taskbar                        |
-| [help](help.md)                           | String/HTML      | Text or html that shows up when the help icon is clicked        |
-| [url](url.md)                             | String/URL       | The url that the window should iframe.                          |
-| [menu](menu.md)                           | Object           | Undocumented                                                    |
-| [header](header.md)                       | Boolean          | Shows the status bar/title bar of the window                    |
-| [footer](footer.md)                       | String/HTML      | Displays text at bottom of window, supports html                |
-| [width](width.md)                         | Integer          | The width of the window, in pixels                              |
-| [height](height.md)                       | Integer          | The height of the window, in pixels                             |
-| [borderTopWidth](bordertopwidth.md)       | Integer          | The top width of the border, in pixels                          |
-| [borderBottomWidth](borderbottomwidth.md) | Integer          | The bottom width of the border, in pixels                       |
-| [borderLeftWidth](borderleftwidth.md)     | Integer          | The left width of the border, in pixels                         |
-| [borderRightWidth](borderrightwidth.md)   | Integer          | The right width of the border, in pixels                        |
-| [baseWidth](basewidth.md)                 | Integer          | Undocumented                                                    |
-| [baseHeight](baseheight.md)               | Integer          | Undocumented                                                    |
-| [minWidth](minwidth.md)                   | Integer          | The minimum width of the window, in pixels                      |
-| [minHeight](minheight.md)                 | Integer          | The minimum height of the window, in pixels                     |
-| top                                       | String/Length    | Undocumented                                                    |
-| [left](left.md)                           | String/Length    | Undocumented                                                    |
-| [center](center.md)                       | Boolean          | Center the window when opened                                   |
-| [noOut](noout.md)                         | Boolean          | Undocumented                                                    |
-| [constrain](constrain.md)                 | Boolean          | Undocumented                                                    |
-| [ajax](ajax.md)                           | Boolean          | Undocumented                                                    |
-| [autoMaxmimize](automaximize.md)          | Boolean          | Whether the window is automatically maximized when it is opened |
-| [contextmenuOnBody](contextmenuonbody.md) | Boolean          | Whether the context menu works in the body of the window        |
-| [resizable](resizable.md)                 | Boolean          | Whether the window can be resized                               |
-| [minimizable](minimizable.md)             | Boolean          | Whether the window can be minimized                             |
-| [maximizable](minimizable.md)             | Boolean          | Whether the window can be maximized                             |
-| [closeable](closeable.md)                 | Boolean          | Whether the window can be closed                                |
-| [draggable](draggable.md)                 | Boolean          | Whether the window can be dragged around the screen             |
-| [dockable](dockable.md)                   | Boolean          | Whether the window appears on the taskbar                       |
-| [activable](activable.md)                 | Boolean          | Whether the window can be active                                |
-| [headerBtn](headerbtn.md)                 | Object           | Undocumented                                                    |
-| [onopen](onopen.md)                       | Function         | Function that runs when the window is opened                    |
-| [onready](onready.md)                     | Function         | Undocumented                                                    |
-| [onclose](onclose.md)                     | Function         | Function that runs when the window is closed                    |
-| [onok](onok.md)                           | Function         | Function that runs when the 'OK' button is clicked              |
-| [oncancel](oncancel.md)                   | Function         | Function that runs when the cancel button is clicked            |
-| [onminimize](onminimize.md)               | Function         | Function that runs when the window is minimized                 |
-| [ondrag](ondrag.md)                       | Function         | Function that runs when the window is being dragged             |
-| [ondragstop](ondragstop.md)               | Function         | Function that runs when the window stops being dragged          |
-| [onresize](onresize.md)                   | Function         | Function that runs when the window is resized                   |
-| [onactive](onactive.md)                   | Function         | Function that runs when the window is made active               |
-| [ondestroy](ondestroy.md)                 | Function         | Function that runs when the window is destroyed                 |
-| [animationIn](animationin.md)             | String/Animation | Animation used when window is opened                            |
-| [animatationOut](animationout.md)         | String           | Animation used when window is closed                            |
-| [baseClass](baseclass.md)                 | String           | Undocumented                                                    |
-| [bodyClass](bodyclass.md)                 | String           | Undocumented                                                    |
-| [style](style.md)                         | String           | Undocumented                                                    |
-| [dest](dest.md)                           | Object           | Undocumented                                                    |
-| [dock](dock.md)                           | Object           | Undocumented                                                    |
-| [contextmenu](contextmenu.md)             | Object           | Undocumented                                                    |
-| [msg\*](msg.md)                           | String/HTML      | Message in alert dialog                                         |
-| [img\*](img.md)                           | String/Path      | Image used in alert dialog                                      |
+| Parameter                             | Type             | Description                                                     |
+| ------------------------------------- | ---------------- | --------------------------------------------------------------- |
+| [title](broken-reference)             | String           | The title of the window                                         |
+| [html](broken-reference)              | String/HTML      | HTML of window                                                  |
+| [icon](broken-reference)              | String/Path      | Icon displayed in status bar and taskbar                        |
+| [help](broken-reference)              | String/HTML      | Text or html that shows up when the help icon is clicked        |
+| [url](broken-reference)               | String/URL       | The url that the window should iframe.                          |
+| [menu](../wininstance/menu.md)        | Object           | Undocumented                                                    |
+| [header](broken-reference)            | Boolean          | Shows the status bar/title bar of the window                    |
+| [footer](broken-reference)            | String/HTML      | Displays text at bottom of window, supports html                |
+| [width](broken-reference)             | Integer          | The width of the window, in pixels                              |
+| [height](broken-reference)            | Integer          | The height of the window, in pixels                             |
+| [borderTopWidth](broken-reference)    | Integer          | The top width of the border, in pixels                          |
+| [borderBottomWidth](broken-reference) | Integer          | The bottom width of the border, in pixels                       |
+| [borderLeftWidth](broken-reference)   | Integer          | The left width of the border, in pixels                         |
+| [borderRightWidth](broken-reference)  | Integer          | The right width of the border, in pixels                        |
+| [baseWidth](broken-reference)         | Integer          | Undocumented                                                    |
+| [baseHeight](broken-reference)        | Integer          | Undocumented                                                    |
+| [minWidth](broken-reference)          | Integer          | The minimum width of the window, in pixels                      |
+| [minHeight](broken-reference)         | Integer          | The minimum height of the window, in pixels                     |
+| top                                   | String/Length    | Undocumented                                                    |
+| [left](broken-reference)              | String/Length    | Undocumented                                                    |
+| [center](broken-reference)            | Boolean          | Center the window when opened                                   |
+| [noOut](broken-reference)             | Boolean          | Undocumented                                                    |
+| [constrain](broken-reference)         | Boolean          | Undocumented                                                    |
+| [ajax](broken-reference)              | Boolean          | Undocumented                                                    |
+| [autoMaxmimize](broken-reference)     | Boolean          | Whether the window is automatically maximized when it is opened |
+| [contextmenuOnBody](broken-reference) | Boolean          | Whether the context menu works in the body of the window        |
+| [resizable](broken-reference)         | Boolean          | Whether the window can be resized                               |
+| [minimizable](broken-reference)       | Boolean          | Whether the window can be minimized                             |
+| [maximizable](broken-reference)       | Boolean          | Whether the window can be maximized                             |
+| [closeable](broken-reference)         | Boolean          | Whether the window can be closed                                |
+| [draggable](broken-reference)         | Boolean          | Whether the window can be dragged around the screen             |
+| [dockable](broken-reference)          | Boolean          | Whether the window appears on the taskbar                       |
+| [activable](broken-reference)         | Boolean          | Whether the window can be active                                |
+| [headerBtn](broken-reference)         | Object           | Undocumented                                                    |
+| [onopen](broken-reference)            | Function         | Function that runs when the window is opened                    |
+| [onready](broken-reference)           | Function         | Undocumented                                                    |
+| [onclose](broken-reference)           | Function         | Function that runs when the window is closed                    |
+| [onok](broken-reference)              | Function         | Function that runs when the 'OK' button is clicked              |
+| [oncancel](broken-reference)          | Function         | Function that runs when the cancel button is clicked            |
+| [onminimize](broken-reference)        | Function         | Function that runs when the window is minimized                 |
+| [ondrag](broken-reference)            | Function         | Function that runs when the window is being dragged             |
+| [ondragstop](broken-reference)        | Function         | Function that runs when the window stops being dragged          |
+| [onresize](broken-reference)          | Function         | Function that runs when the window is resized                   |
+| [onactive](broken-reference)          | Function         | Function that runs when the window is made active               |
+| [ondestroy](broken-reference)         | Function         | Function that runs when the window is destroyed                 |
+| [animationIn](broken-reference)       | String/Animation | Animation used when window is opened                            |
+| [animatationOut](broken-reference)    | String           | Animation used when window is closed                            |
+| [baseClass](broken-reference)         | String           | Undocumented                                                    |
+| [bodyClass](broken-reference)         | String           | Undocumented                                                    |
+| [style](broken-reference)             | String           | Undocumented                                                    |
+| [dest](broken-reference)              | Object           | Undocumented                                                    |
+| [dock](broken-reference)              | Object           | Undocumented                                                    |
+| [contextmenu](broken-reference)       | Object           | Undocumented                                                    |
+| [msg\*](broken-reference)             | String/HTML      | Message in alert dialog                                         |
+| [img\*](broken-reference)             | String/Path      | Image used in alert dialog                                      |
 
 \* Only works on $alert, $confirm, and $prompt
