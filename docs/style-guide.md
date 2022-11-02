@@ -12,7 +12,7 @@ This about section is mandatory and should include information on what the page/
 
 {% tabs %}
 {% tab title="Screenshot" %}
-<figure><img src=".gitbook/assets/explorer- cdrive.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="assets/explorer- cdrive.png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Code" %}

@@ -8,7 +8,7 @@ The `$editor` api creates a text editor. The `textarea` app uses the `$editor` a
 
 {% tabs %}
 {% tab title="Screenshot" %}
-<figure><img src="../../.gitbook/assets/editor api.png" alt=""><figcaption><p>textarea app uses $editor</p></figcaption></figure>
+<figure><img src="../../assets/editor api.png" alt=""><figcaption><p>textarea app uses $editor</p></figcaption></figure>
 {% endtab %}
 
 {% tab title="Code" %}

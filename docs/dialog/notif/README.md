@@ -12,7 +12,7 @@ description: Displays a notification
 
 {% tabs %}
 {% tab title="Screenshot" %}
-![](../../.gitbook/assets/notif.png)
+![](../../assets/notif.png)
 {% endtab %}
 
 {% tab title="Code" %}

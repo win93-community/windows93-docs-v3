@@ -9,6 +9,6 @@ On July 4th of 2021, jankenpopp released a statement in the form of a `txt` file
 
 V3 is still planned. For updates, check Jankenpopp's reddit: [https://reddit.com/u/win93](https://reddit.com/u/win93)
 
-{% file src="../.gitbook/assets/dearCommunity.txt" %}
+{% file src="../assets/dearCommunity.txt" %}
 the dearCommunity.txt file Jankenpopp sent
 {% endfile %}

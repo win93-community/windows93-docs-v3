@@ -6,7 +6,7 @@ description: Shows an alert window against a white background that the user can 
 
 ### Examples
 
-![](<../../../.gitbook/assets/alert help.png>)
+![](<../../../assets/alert help.png>)
 
 ### Usage
 
