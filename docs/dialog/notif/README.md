@@ -38,5 +38,5 @@ $notif({
 
 | Name | Type            | Description                                                                                                        |
 |------|-----------------|--------------------------------------------------------------------------------------------------------------------|
-| opt  | object | string | Object with known properties or text/HTML to be displayed                                                          |
-| el   | object | string | Element object (where the notif will be displayed) OR the title of the notification (only if opt is a string/HTML) |
+| opt  | object \| string | Object with known properties or text/HTML to be displayed                                                          |
+| el   | object \| string | Element object (where the notif will be displayed) OR the title of the notification (only if opt is a string/HTML) |
