@@ -1,4 +1,4 @@
-## 👣 Introduction <a href="#intro" id="intro"></a>
+## 👣 Introduction
 
 * [Introduction](README.md)
 * [🥳 V3](intro/V3.md)
@@ -9,7 +9,7 @@
 
 * [🎨 CSS Reference](css.md)
 
-## 💬 Dialogs <a href="#dialog" id="dialog"></a>
+## 💬 Dialogs
 
 * [$window](dialog/window/README.md)
 * [$notif](dialog/notif/README.md)
@@ -38,7 +38,7 @@
 * [$loader](system/loader/README.md)
 * [$boot](system/boot/README.md)
 
-## 🛠 Utilities <a href="#utils" id="utils"></a>
+## 🛠 Utilities
 
 * [$url](utils/url/README.md)
 * [$state](utils/state/README.md)
@@ -50,7 +50,7 @@
 
 * [Style Guide](style-guide.md)
 
-## ⛔ Undocumented <a href="#nodoc" id="nodoc"></a>
+## ⛔ Undocumented
 
 * [$extend](nodoc/extend.md)
 * [$menu](nodoc/menu.md)
