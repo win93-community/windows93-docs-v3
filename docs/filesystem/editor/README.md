@@ -6,7 +6,7 @@ The `$editor` api creates a text editor. The `textarea` app uses the `$editor` a
 
 ### Example
 
-{% tabs %}
+<!-- tabs:start -->
 {% tab title="Screenshot" %}
 <figure><img src="../../assets/editor api.png" alt=""><figcaption><p>textarea app uses $editor</p></figcaption></figure>
 {% endtab %}
@@ -59,7 +59,7 @@ textarea: {
 ```
 {% endcode %}
 {% endtab %}
-{% endtabs %}
+<!-- tabs:end -->
 
 ### [Arguments](args/)
 

@@ -10,7 +10,7 @@ This about section is mandatory and should include information on what the page/
 
 ### Example
 
-{% tabs %}
+<!-- tabs:start -->
 {% tab title="Screenshot" %}
 <figure><img src="assets/explorer- cdrive.png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
@@ -22,7 +22,7 @@ This about section is mandatory and should include information on what the page/
 ```
 {% endcode %}
 {% endtab %}
-{% endtabs %}
+<!-- tabs:end -->
 
 ### Usage
 
