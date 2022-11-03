@@ -11,17 +11,13 @@ This about section is mandatory and should include information on what the page/
 ### Example
 
 <!-- tabs:start -->
-{% tab title="Screenshot" %}
+#### Screenshot
 <figure><img src="assets/cdrive.png" alt=""><figcaption></figcaption></figure>
-{% endtab %}
 
-{% tab title="Code" %}
-{% code lineNumbers="true" %}
+#### Code
 ```javascript
-// This code should result in the screenshot. The syntax should be JavaScript and it should be line numbered.
+// This code should result in the screenshot. The syntax should be JavaScript
 ```
-{% endcode %}
-{% endtab %}
 <!-- tabs:end -->
 
 ### Usage

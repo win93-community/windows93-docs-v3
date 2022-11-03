@@ -7,12 +7,10 @@ The `$editor` api creates a text editor. The `textarea` app uses the `$editor` a
 ### Example
 
 <!-- tabs:start -->
-{% tab title="Screenshot" %}
+#### Screenshot
 <figure><img src="../../assets/editor api.png" alt=""><figcaption><p>textarea app uses $editor</p></figcaption></figure>
-{% endtab %}
 
-{% tab title="Code" %}
-{% code title="textarea app" lineNumbers="true" %}
+#### Code
 ```javascript
 textarea: {
       categories: "Development;TextEditor",
@@ -57,8 +55,6 @@ textarea: {
       },
     },
 ```
-{% endcode %}
-{% endtab %}
 <!-- tabs:end -->
 
 ### [Arguments](args/)
