@@ -13,7 +13,7 @@
     <img src="../assets/start button.png" alt="" data-size="original">
 *   Explorer: file explorer window - NOT the Cat Explorer app
 
-    <img src="../assets/explorer- cdrive.png" alt="" data-size="original">
+    <img src="../assets/cdrive.png" alt="" data-size="original">
 
 ### JS terminology
 

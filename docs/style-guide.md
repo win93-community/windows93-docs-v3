@@ -12,7 +12,7 @@ This about section is mandatory and should include information on what the page/
 
 <!-- tabs:start -->
 {% tab title="Screenshot" %}
-<figure><img src="assets/explorer- cdrive.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="assets/cdrive.png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Code" %}
