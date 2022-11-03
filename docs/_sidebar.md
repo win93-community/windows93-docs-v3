@@ -1,7 +1,6 @@
 * 👣 Introduction
 
     * [Introduction](README.md)
-    * [🥳 V3](intro/V3.md)
     * [A Brief History](intro/history.md)
     * [Terminology](intro/terminology.md)
 
