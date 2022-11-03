@@ -8,7 +8,7 @@ This website will allow for you to continuously learn more about the Windows93 J
 
 ![](assets/apis.png)
 
-There are 51 APIs in Windows 93. Each of them begin with the dollar sign ($), except for the [`system42`](system/system42.md) api, a wrapper of the [`$kernel`](system/kernel.md) api..
+There are 51 APIs in Windows 93. Each of them begin with the dollar sign ($), except for the [`system42`](system/system42) api, a wrapper of the [`$kernel`](system/kernel) api..
 
 ### What other documentation sites are there?
 

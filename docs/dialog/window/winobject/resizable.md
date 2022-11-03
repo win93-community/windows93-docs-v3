@@ -1,3 +1,3 @@
 # resizable
 
-diff --git a/dialog/window/winobject/minimizable.md b/dialog/window/winobject/minimizable.md
+diff --git a/dialog/window/winobject/minimizable b/dialog/window/winobject/minimizable

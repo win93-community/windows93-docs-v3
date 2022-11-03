@@ -9,7 +9,7 @@ Remember: You can only store files on the `a` drive. Attempting to store on anot
 {% endhint %}
 
 {% hint style="danger" %}
-**There will be a notification shown whenever a file is saved using this function. There is no way around it other than using** [**$db**](../../db.md) **or** [**$store**](../../store.md) **instead.**
+**There will be a notification shown whenever a file is saved using this function. There is no way around it other than using** [**$db**](../../db) **or** [**$store**](../../store) **instead.**
 {% endhint %}
 
 `$file.save(path, content, callback)`

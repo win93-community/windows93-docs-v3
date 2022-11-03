@@ -1,3 +1,3 @@
 # draggable
 
-diff --git a/dialog/window/winobject/dockable.md b/dialog/window/winobject/dockable.md
+diff --git a/dialog/window/winobject/dockable b/dialog/window/winobject/dockable

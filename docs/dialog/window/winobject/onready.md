@@ -1,3 +1,3 @@
 # onready
 
-diff --git a/dialog/window/winobject/onclose.md b/dialog/window/winobject/onclose.md
+diff --git a/dialog/window/winobject/onclose b/dialog/window/winobject/onclose

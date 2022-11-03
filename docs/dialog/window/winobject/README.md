@@ -7,7 +7,7 @@
 | [icon](broken-reference)              | String/Path      | Icon displayed in status bar and taskbar                        |
 | [help](broken-reference)              | String/HTML      | Text or html that shows up when the help icon is clicked        |
 | [url](broken-reference)               | String/URL       | The url that the window should iframe.                          |
-| [menu](../wininstance/menu.md)        | Object           | Undocumented                                                    |
+| [menu](../wininstance/menu)        | Object           | Undocumented                                                    |
 | [header](broken-reference)            | Boolean          | Shows the status bar/title bar of the window                    |
 | [footer](broken-reference)            | String/HTML      | Displays text at bottom of window, supports html                |
 | [width](broken-reference)             | Integer          | The width of the window, in pixels                              |
