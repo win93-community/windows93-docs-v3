@@ -5,4 +5,4 @@ On July 4th of 2021, jankenpopp released a statement in the form of a `txt` file
 
 Despite all the incidents, V3 is still planned and will release on February 16, 2022. For updates, check Jankenpopp's reddit: [https://reddit.com/u/win93](https://reddit.com/u/win93) and his twitter: [https://twitter.com/jankenpopp](https://twitter.com/jankenpopp). Consider checking the [roadmap](https://windows93.xyz/roadmap.html) as well.
 
-[view dearCommunity.txt file](assets/dearCommunity.txt)
+[view dearCommunity.txt file](/assets/dearCommunity.txt ':ignore')

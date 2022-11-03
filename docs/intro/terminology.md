@@ -4,16 +4,16 @@
 
 *   Status bar: top of the window
 
-    <img src="../assets/statusbar.png" alt="" data-size="original">
+    ![](/assets/statusbar.png ':ignore')
 *   Taskbar: bottom of screen
 
-    <img src="../assets/taskbar.png" alt="" data-size="original">
+    ![](/assets/taskbar.png ':ignore')
 *   Start button: bottom left of screen
 
-    <img src="../assets/start button.png" alt="" data-size="original">
+    ![](/assets/start button.png ':ignore')
 *   Explorer: file explorer window - NOT the Cat Explorer app
 
-    <img src="../assets/cdrive.png" alt="" data-size="original">
+    ![](/assets/cdrive.png ':ignore')
 
 ### JS terminology
 
