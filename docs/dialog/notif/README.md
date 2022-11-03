@@ -1,7 +1,3 @@
----
-description: Displays a notification
----
-
 # $notif
 
 ### About

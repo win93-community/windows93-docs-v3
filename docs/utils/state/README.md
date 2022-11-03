@@ -1,7 +1,3 @@
----
-description: $state is defined as a function for games
----
-
 # $state
 
 ### About

@@ -1,7 +1,3 @@
----
-description: What happened to myspace, etc.
----
-
 # A Brief History
 
 Windows93's /b/, trollbox, and myspace have shut down in order to prevent the distribution of source files and myspace user passwords. This has slowed the distribution, however, it has not halted as 7z archives are being pirated in sister communities.\

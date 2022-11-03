@@ -1,7 +1,3 @@
----
-description: Useful api for creating zip files.
----
-
 # $archive
 
 ### About

@@ -1,12 +1,8 @@
----
-description: Shows an alert window against a white background that the user can close
----
-
 # help
 
 ### Examples
 
-![](<../../../assets/alert help.png>)
+![](assets/alert help.png)
 
 ### Usage
 

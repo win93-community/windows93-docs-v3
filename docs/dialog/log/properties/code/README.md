@@ -1,7 +1,3 @@
----
-description: Logs the text with styling for the programming language detected in the code
----
-
 # code
 
 ### About

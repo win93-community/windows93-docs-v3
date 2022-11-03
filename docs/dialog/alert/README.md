@@ -1,12 +1,8 @@
----
-description: Shows an alert window that the user can close
----
-
 # $alert
 
 ### Examples
 
-![](../../assets/alert.png)
+![](assets/alert.png)
 
 Shows an alert window that the user can close
 

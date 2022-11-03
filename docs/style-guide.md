@@ -1,7 +1,3 @@
----
-description: Style guide when editing/adding pages
----
-
 # Style Guide
 
 ### About
