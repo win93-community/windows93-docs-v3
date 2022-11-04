@@ -2,7 +2,7 @@
 
 ### Examples
 
-![](assets/alert help.png ':ignore')
+![](assets/alertHelp.png ':ignore')
 
 ### Usage
 

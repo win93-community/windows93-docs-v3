@@ -10,7 +10,7 @@
     ![](assets/taskbar.png ':ignore')
 *   Start button: bottom left of screen
 
-    ![](assets/start button.png ':ignore')
+    ![](assets/startButton.png ':ignore')
 *   Explorer: file explorer window - NOT the Cat Explorer app
 
     ![](assets/cdrive.png ':ignore')
