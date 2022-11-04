@@ -20,7 +20,7 @@
 | [baseHeight](dialog/window/winobject/baseheight)               | Integer          | Undocumented                                                    |
 | [minWidth](dialog/window/winobject/minwidth)                   | Integer          | The minimum width of the window, in pixels                      |
 | [minHeight](dialog/window/winobject/minheight)                 | Integer          | The minimum height of the window, in pixels                     |
-| [top](dialog/window/winobject/top)                                       | String/Length    | Undocumented                                                    |
+| [top](dialog/window/winobject/top)                             | String/Length    | Undocumented                                                    |
 | [left](dialog/window/winobject/left)                           | String/Length    | Undocumented                                                    |
 | [center](dialog/window/winobject/center)                       | Boolean          | Center the window when opened                                   |
 | [noOut](dialog/window/winobject/noout)                         | Boolean          | Undocumented                                                    |
