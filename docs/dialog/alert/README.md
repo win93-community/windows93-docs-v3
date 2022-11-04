@@ -2,7 +2,7 @@
 
 ### Examples
 
-![](/assets/alert.png ':ignore')
+![](assets/alert.png ':ignore')
 
 Shows an alert window that the user can close
 

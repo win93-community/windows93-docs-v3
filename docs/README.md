@@ -6,7 +6,7 @@ This website will allow for you to continuously learn more about the Windows93 J
 
 ### About the Apis
 
-![](/assets/apis.png ':ignore')
+![](assets/apis.png ':ignore')
 
 There are 51 APIs in Windows 93. Each of them begin with the dollar sign ($), except for the [`system42`](system/system42) api, a wrapper of the [`$kernel`](system/kernel) api..
 

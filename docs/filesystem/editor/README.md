@@ -8,7 +8,7 @@ The `$editor` api creates a text editor. The `textarea` app uses the `$editor` a
 
 <!-- tabs:start -->
 #### Screenshot
-![](/assets/editor api.png ':ignore')
+![](assets/editor api.png ':ignore')
 
 #### Code
 ```javascript

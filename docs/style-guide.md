@@ -8,7 +8,7 @@ This about section is mandatory and should include information on what the page/
 
 <!-- tabs:start -->
 #### Screenshot
-![](/assets/cdrive.png ':ignore')
+![](assets/cdrive.png ':ignore')
 
 #### Code
 ```javascript

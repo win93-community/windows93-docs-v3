@@ -4,16 +4,16 @@
 
 *   Status bar: top of the window
 
-    ![](/assets/statusbar.png ':ignore')
+    ![](assets/statusbar.png ':ignore')
 *   Taskbar: bottom of screen
 
-    ![](/assets/taskbar.png ':ignore')
+    ![](assets/taskbar.png ':ignore')
 *   Start button: bottom left of screen
 
-    ![](/assets/start button.png ':ignore')
+    ![](assets/start button.png ':ignore')
 *   Explorer: file explorer window - NOT the Cat Explorer app
 
-    ![](/assets/cdrive.png ':ignore')
+    ![](assets/cdrive.png ':ignore')
 
 ### JS terminology
 
