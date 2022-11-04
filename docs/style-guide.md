@@ -18,9 +18,8 @@ This about section is mandatory and should include information on what the page/
 
 ### Usage
 
-{% hint style="info" %}
-The usage heading should include information on the function's parameters.
-{% endhint %}
+?> The usage heading should include information on the function's parameters.
+
 
 `howToUseThisFunction(parametername = "defaultValue", param2, param3)`
 
@@ -30,6 +29,5 @@ The usage heading should include information on the function's parameters.
 
 ### Return
 
-{% hint style="danger" %}
-Deprecated field (do not use this)
-{% endhint %}
+!> Deprecated field (do not use this)
+

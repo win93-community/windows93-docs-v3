@@ -4,9 +4,8 @@
 
 `$log` will display a message to the most recent `terminal` session opened. It can also be used to clear the terminal.
 
-{% hint style="info" %}
-`$log` will always render HTML into the terminal output.
-{% endhint %}
+?> `$log` will always render HTML into the terminal output.
+
 
 ### Usage
 

@@ -1,7 +1,4 @@
 # \_onendTimer
 
-{% hint style="info" %}
-**Undocumented**
-
+?> **Undocumented**
 Reason: Unknown function
-{% endhint %}

@@ -1,7 +1,5 @@
 # \_model
 
-{% hint style="info" %}
-**Undocumented**
-
+?> **Undocumented**
 Reason: Unknown function
-{% endhint %}
+

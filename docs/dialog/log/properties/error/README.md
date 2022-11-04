@@ -4,9 +4,8 @@
 
 `$log.error` logs text in red and with an 'x'
 
-{% hint style="info" %}
-`$log.fail` and `$log.error` serve the same purpose and are both exactly identical.
-{% endhint %}
+?> `$log.fail` and `$log.error` serve the same purpose and are both exactly identical.
+
 
 ### Usage
 

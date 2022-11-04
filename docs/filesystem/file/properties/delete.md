@@ -4,9 +4,8 @@
 
 Deletes a file.
 
-{% hint style="warning" %}
-This is an irreversible action.
-{% endhint %}
+!> This is an irreversible action.
+
 
 ### Usage
 

@@ -1,7 +1,5 @@
 # \_format
 
-{% hint style="info" %}
-**Undocumented**
-
+?> **Undocumented**
 Reason: Unknown function
-{% endhint %}
+

@@ -4,9 +4,8 @@
 
 `$log.pass` logs the text in green and with a checkmark
 
-{% hint style="info" %}
-`$log.pass` and `$log.succes` serve the same function - there is no difference between the two.
-{% endhint %}
+?> `$log.pass` and `$log.succes` serve the same function - there is no difference between the two.
+
 
 ### Usage
 

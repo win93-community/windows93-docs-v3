@@ -4,9 +4,8 @@
 
 Removes all user data (reinstalls). Please don't use this. Please. This doesn't reload by itself so you have to add that to the callback.
 
-{% hint style="danger" %}
-**Running this will delete everything saved on /a/ - THIS IS INCREDIBLY DANGEROUS**
-{% endhint %}
+!> **Running this will delete everything saved on /a/ - THIS IS INCREDIBLY DANGEROUS**
+
 
 ### Usage
 

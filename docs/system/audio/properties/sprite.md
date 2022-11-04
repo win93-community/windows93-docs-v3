@@ -1,7 +1,5 @@
 # \_sprite
 
-{% hint style="info" %}
-**Undocumented**
-
+?> **Undocumented**
 Reason: Unknown function
-{% endhint %}
+

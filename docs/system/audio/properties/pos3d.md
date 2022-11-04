@@ -1,7 +1,5 @@
 # \_pos3d
 
-{% hint style="info" %}
-**Undocumented**
-
+?> **Undocumented**
 Reason: Unknown function
-{% endhint %}
+

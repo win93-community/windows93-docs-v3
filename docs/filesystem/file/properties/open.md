@@ -4,9 +4,8 @@
 
 Reads the content of a file.
 
-{% hint style="warning" %}
-This does not open the file with the first program listed, it simply reads the content of the file
-{% endhint %}
+!> This does not open the file with the first program listed, it simply reads the content of the file
+
 
 ### Usage:
 

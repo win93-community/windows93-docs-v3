@@ -1,7 +1,5 @@
 # $url
 
-{% hint style="info" %}
-**Undocumented**
-
+?> **Undocumented**
 Reason: Coming soon
-{% endhint %}
+
