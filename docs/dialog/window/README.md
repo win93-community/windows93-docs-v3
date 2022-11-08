@@ -6,7 +6,7 @@
 
 ### Usage
 
-`let` [`WinInstance`](wininstance/) `=` [`$window`](./)`(`[`WinObject`](winobject/)`)`
+`let` [`WinInstance`](dialog/window/wininstance/) `=` $window`(`[`WinObject`](dialog/window/winobject/)`)`
 
 ### Parameter Object (WinObject)
 
