@@ -2,7 +2,7 @@
 
 ### Examples
 
-![](assets/alert.png ':ignore')
+![](/assets/alert.png ':ignore')
 
 Shows an alert window that the user can close
 
@@ -31,7 +31,7 @@ Shows an alert window that the user can close
 Shows an alert window against a white background that the user can close
 ##### Examples
 
-![](assets/alertHelp.png ':ignore')
+![](/assets/alertHelp.png ':ignore')
 
 ##### Usage
 
