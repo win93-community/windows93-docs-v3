@@ -22,16 +22,16 @@ Shows an alert window that the user can close
 | Name                  | Description                                                              |
 |-----------------------|--------------------------------------------------------------------------|
 | [help](#help)         | Shows an alert window against a white background that the user can close |
-| [error](#error)       | TODO                                                                     |
-| [progress](#progress) | TODO                                                                     |
-| [info](#info)         | TODO                                                                     |
+| [error](#error)       | Displays an error to the user                                            |
+| [progress](#progress) | Displays a loading bar, which may be filled using a function on a loop   |
+| [info](#info)         | Displays a pop-up window that contains some info                         |
 
 #### help
 ##### About
-Shows an alert window against a white background that the user can close
+Shows an alert window against a white background that the user can close. Should
 ##### Examples
 
-![](assets/alertHelp.png ':ignore')
+![](assets/alertHelp.png)
 
 ##### Usage
 
@@ -40,12 +40,30 @@ Shows an alert window against a white background that the user can close
 ##### Parameters
 | Parameter | Type                | Description                                                                                                                             |
 | --------- | ------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
-| options   | String or WinObject | the text to display. Can also be a WinObject with a msg (and icon) property, to set more specific options. HTML is supported in string. |
+| options   | String or WinObject | The text to display. Can also be a WinObject with a msg (and icon) property, to set more specific options. HTML is supported in string. |
 | callback  | Function            | The callback for the function. Called with true if user presses OK                                                                      |
-#### error
+
+
+#### Error
 ##### About
+Displays an error. Can contain quite a bit of text to let the user know exactly what went wrong.
+
+##### Examples
+
 TODO
-#### progress
+
+##### Usage
+
+`$alert.error(options, callback)`
+
+##### Parameters
+| Parameter | Type                | Description                                                                                                                             |
+|-----------|---------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
+| options   | String or Winobject | The text to display. Can also be a WinObject with a msg (and icon) property, to set more specific options. HTML is supported in string. |
+| callback  | Function            | The callback for the function. Called with true if the user presses OK                                                                  |
+
+
+#### Progress
 ##### About
 TODO
 #### info
