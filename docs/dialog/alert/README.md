@@ -50,7 +50,7 @@ Displays an error. Can contain quite a bit of text to let the user know exactly 
 
 ##### Examples
 
-TODO
+![](assets/alertError.png)
 
 ##### Usage
 
@@ -65,7 +65,15 @@ TODO
 
 #### Progress
 ##### About
-TODO
+Displays a loading bar to the user. We don't really know much about this, so don't panic, we're trying to find how this thingy works.
+
 #### info
 ##### About
-TODO
+Displays a pop-up that contains info to the user. Used for when you want to provide some sort of tutorial or whatever.
+
+`$alert.info(options, callback)`
+
+| Parameter | Type | Description |
+|-----------|------|-------------|
+| options | String | The text to display. THIS DOES NOT SUPPORT A WinObject!|
+| callback | Function | The callback for the function. Called with true if the user presses OK |
