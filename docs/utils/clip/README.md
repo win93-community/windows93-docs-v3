@@ -2,7 +2,7 @@
 
 ### About
 
-The `$clip` api allows for text to be copied to the clipboard.
+The `$clip` api allows for text to be copied to the clipboard. Should be used for when a user needs to copy, for example, an error code.
 
 ### [Methods](methods/)
 

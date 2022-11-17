@@ -42,3 +42,33 @@
 | green   | Logs text in color green                                                      |
 | error   | Logs text in color red                                                        |
 
+
+### Examples 
+These are what the above methods look like
+
+![](assets/logPass.jpg)
+*A success!*
+
+![](assets/logFail.jpg)
+*A not so successful success!*
+
+![](assets/logInfo.jpg)
+*My reaction to that information*
+
+![](assets/logCombination.jpg)
+*What happens when you combine methods?*
+
+![](assets/logItalic.PNG)
+*Curvy text...*
+
+![](assets/logBold.png)
+*T H I C C text...*
+
+![](assets/logWhite.PNG)
+*What the colors look like. Feel free to add the other ones*
+
+![](assets/SUCCESS.PNG)
+*What a successful success!*
+
+![](assets/NOTSUCCESS.PNG)
+*What an unsuccessful failure!*
