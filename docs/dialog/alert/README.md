@@ -50,7 +50,7 @@ Displays an error. Can contain quite a bit of text to let the user know exactly 
 
 ##### Examples
 
-![](https://github.com/win93-community/windows93-docs/blob/dbe1e490c1da3ac6167cb03f81ac56e0013318e2/docs/assets/alertError.jpg)
+![](/docs/assets/alertError.jpg)
 
 ##### Usage
 
