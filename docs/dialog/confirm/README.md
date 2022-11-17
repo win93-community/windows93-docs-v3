@@ -9,3 +9,11 @@
 |-----------|--------------------|---------------------------------------------------------------------------------------------------------------|
 | options   | string or WinObject| The text to display. Can also be a WinObject with a msg (and icon) property, to set more specific options     |
 | callback  | Function           | The callback for the function. Called with true if user presses OK, and with false if the user pressed Cancel.|
+
+### Examples
+
+![](https://github.com/MrPigeontheCoder/windows93-docs/blob/2.4.1/docs/assets/confirm.png)
+*This code...*
+
+![](https://github.com/MrPigeontheCoder/windows93-docs/blob/2.4.1/docs/assets/result.png)
+*... yields this*

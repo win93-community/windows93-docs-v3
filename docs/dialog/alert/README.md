@@ -28,10 +28,10 @@ Shows an alert window that the user can close
 
 #### help
 ##### About
-Shows an alert window against a white background that the user can close. Should
+Shows an alert window against a white background that the user can close. Should be used for well, displaying help.
 ##### Examples
 
-![](assets/alertHelp.png)
+![](/docs/assets/alertHelp.png)
 
 ##### Usage
 
@@ -50,7 +50,7 @@ Displays an error. Can contain quite a bit of text to let the user know exactly 
 
 ##### Examples
 
-![](assets/alertError.png)
+![](/docs/assets/alertError.jpg)
 
 ##### Usage
 
@@ -65,7 +65,7 @@ Displays an error. Can contain quite a bit of text to let the user know exactly 
 
 #### Progress
 ##### About
-Displays a loading bar to the user. We don't really know much about this, so don't panic, we're trying to find how this thingy works.
+Displays a loading bar to the user. We don't really know much about this, so don't panic, we're trying to find out how this thingy works.
 
 #### info
 ##### About
