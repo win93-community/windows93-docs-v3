@@ -55,7 +55,7 @@ These are what the above methods look like
 ![](assets/logInfo.jpg)
 *My reaction to that information*
 
-![](assets/logCombination.jpg)
+![](/docs/assets/logCombination.jpg)
 *What happens when you combine methods?*
 
 ![](assets/logItalic.PNG)
