@@ -9,16 +9,13 @@
 
 ### Usage
 
-`$log(text, unknown, unknown)`
+`$log(text)`
 
 ### Parameters
 
 | Parameter | Type | Remarks                                            |
 |-----------|------|----------------------------------------------------|
 | text      |      | Text logged to the console                         |
-| unknown   |      | Unknown, appears to also be text logged to console |
-| unknown   |      | Unknown, appears to also be text logged to console |
-
 
 ### Methods
 

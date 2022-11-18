@@ -31,7 +31,7 @@ Shows an alert window that the user can close
 Shows an alert window against a white background that the user can close. Should be used for well, displaying help.
 ##### Examples
 
-![](/docs/assets/alertHelp.png)
+![](/docs/assets/alertHelp.png ':ignore')
 
 ##### Usage
 
@@ -50,7 +50,7 @@ Displays an error. Can contain quite a bit of text to let the user know exactly 
 
 ##### Examples
 
-![](/docs/assets/alertError.jpg)
+![](/docs/assets/alertError.jpg ':ignore')
 
 ##### Usage
 
@@ -65,15 +65,23 @@ Displays an error. Can contain quite a bit of text to let the user know exactly 
 
 #### Progress
 ##### About
-Displays a loading bar to the user. We don't really know much about this, so don't panic, we're trying to find out how this thingy works.
+Displays a loading bar to the user. We don't really know much about this, so don't panic, we're trying to find out how this thingy works. We assume you use a loop or a function to increase the bar...
+
+
 
 #### info
 ##### About
 Displays a pop-up that contains info to the user. Used for when you want to provide some sort of tutorial or whatever.
+##### Examples
+
+![](/docs/assets/alertInfo.png ':ignore')
+
+##### Usage
 
 `$alert.info(options, callback)`
 
-| Parameter | Type | Description |
-|-----------|------|-------------|
-| options | String | The text to display. THIS DOES NOT SUPPORT A WinObject!|
-| callback | Function | The callback for the function. Called with true if the user presses OK |
+##### Parameters
+| Parameter | Type     | Description                                                            |
+|-----------|----------|------------------------------------------------------------------------|
+| options   | String   | The text to display. THIS DOES NOT SUPPORT A WinObject!                |
+| callback  | Function | The callback for the function. Called with true if the user presses OK |

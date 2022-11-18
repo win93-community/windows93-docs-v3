@@ -10,8 +10,8 @@
 
     * [$window](dialog/window/README.md)
     * [$notif](dialog/notif/README.md)
-    * [$confirm](dialog/confirm.md)
-    * [$prompt](dialog/prompt.md)
+    * [$confirm](/docs/dialog/confirm/README.md)
+    * [$prompt](/docs/dialog/prompt/README.md)
     * [$alert](dialog/alert/README.md)
     * [$log](dialog/log/README.md)
 
@@ -53,3 +53,6 @@
     * [$io](nodoc/io.md)
     * [$box](nodoc/box.md)
     * [$route](nodoc/route.md)
+
+* 💥 Deprecated
+    * [$note](/docs/dialog/note.md)
