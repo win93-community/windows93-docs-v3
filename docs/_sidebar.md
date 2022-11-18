@@ -10,7 +10,7 @@
 
     * [$window](dialog/window/README.md)
     * [$notif](dialog/notif/README.md)
-    * [$confirm](dialog/confirm.md)
+    * [$confirm](/docs/dialog/confirm/README.md)
     * [$prompt](dialog/prompt.md)
     * [$alert](dialog/alert/README.md)
     * [$log](dialog/log/README.md)
