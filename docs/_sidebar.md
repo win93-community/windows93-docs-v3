@@ -58,4 +58,4 @@
     * [$route](nodoc/route.md)
 
 * 💥 Deprecated
-    * [$note](/docs/dialog/note.md)
+    * [$note](docs/dialog/note.md)
