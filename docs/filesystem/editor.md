@@ -59,10 +59,10 @@ textarea: {
 
 ### Arguments
 
-| Name | Type    | Description    |
-|------|---------|----------------|
-| opt  | object  | Options object |
-| arg2 | unknown | Unknown        |
+| Name          | Type    | Description    |
+|---------------|---------|----------------|
+| [opt](#opt)   | object  | Options object |
+| [arg2](#arg2) | unknown | Unknown        |
 
 #### opt
 
