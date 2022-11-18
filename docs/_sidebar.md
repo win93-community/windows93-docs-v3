@@ -6,6 +6,9 @@
 
 * [🎨 CSS Reference](css.md)
 
+* [❗ NOTICE]
+    * [NOTICE](docs/NOTICE.md)
+
 * 💬 Dialogs
 
     * [$window](dialog/window/README.md)
