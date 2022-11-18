@@ -6,6 +6,9 @@
 
 * [🎨 CSS Reference](css.md)
 
+* [❗ NOTICE]
+    * [NOTICE](docs/NOTICE.md)
+
 * 💬 Dialogs
 
     * [$window](dialog/window/README.md)
@@ -55,4 +58,4 @@
     * [$route](nodoc/route.md)
 
 * 💥 Deprecated
-    * [$note](/docs/dialog/note.md)
+    * [$note](docs/dialog/note.md)
