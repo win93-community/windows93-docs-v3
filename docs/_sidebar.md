@@ -7,14 +7,14 @@
 * [🎨 CSS Reference](css.md)
 
 * [❗ NOTICE]
-    * [NOTICE](docs/NOTICE.md)
+    * [NOTICE](NOTICE.md)
 
 * 💬 Dialogs
 
     * [$window](dialog/window/README.md)
     * [$notif](dialog/notif/README.md)
-    * [$confirm](/docs/dialog/confirm/README.md)
-    * [$prompt](/docs/dialog/prompt/README.md)
+    * [$confirm](/dialog/confirm/README.md)
+    * [$prompt](/dialog/prompt/README.md)
     * [$alert](dialog/alert/README.md)
     * [$log](dialog/log/README.md)
 
@@ -58,4 +58,4 @@
     * [$route](nodoc/route.md)
 
 * 💥 Deprecated
-    * [$note](docs/dialog/note.md)
+    * [$note](dialog/note.md)
