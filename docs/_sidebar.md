@@ -11,7 +11,7 @@
 
 * 💬 Dialogs
 
-    * [$window](dialog/window/README.md)
+    * [$window](dialog/window.md)
     * [$notif](dialog/notif/README.md)
     * [$confirm](/dialog/confirm.md)
     * [$prompt](/dialog/prompt.md)
