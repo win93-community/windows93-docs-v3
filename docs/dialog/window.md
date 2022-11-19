@@ -1,14 +1,14 @@
 # $window
 
-### About
+## About
 
 `$window` is used in all applications that open a window. It is your go-to way to create a window.
 
-### Usage
+## Usage
 
 `let` [`WinInstance`](dialog/window/wininstance/) `=` $window`(`[`WinObject`](#)`)`
 
-### Parameter Object (WinObject)
+## Parameter Object (WinObject)
 
 | Parameter                               | Type             | Description                                                     |
 |-----------------------------------------|------------------|-----------------------------------------------------------------|
@@ -69,112 +69,147 @@
 
 \* Only works on $alert, $confirm, and $prompt
 
-#### title
+### title
 
-#### html
+### html
 
-#### icon
+### icon
 
-#### help
+### help
 
-#### url
+### url
 
-#### menu
+### menu
 
-#### header
+### header
 
-#### footer
+### footer
 
-#### width
+### width
 
-#### height
+### height
 
-#### borderTopWidth
+### borderTopWidth
 
-#### borderBottomWidth
+### borderBottomWidth
 
-#### borderLeftWidth
+### borderLeftWidth
 
-#### borderRightWidth
+### borderRightWidth
 
-#### baseWidth
+### baseWidth
 
-#### baseHeight
+### baseHeight
 
-#### minWidth
+### minWidth
 
-#### minHeight
+### minHeight
 
-#### top
+### top
 
-#### left
+### left
 
-#### center
+### center
 
-#### noOut
+### noOut
 
-#### constrain
+### constrain
 
-#### ajax
+### ajax
 
-#### autoMaximize
+### autoMaximize
 
-#### contextmenuOnBody
+### contextmenuOnBody
 
-#### resizable
+### resizable
 
-#### minimizable
+### minimizable
 
-#### maximizable
+### maximizable
 
-#### closeable
+### closeable
 
-#### draggable
+### draggable
 
-#### dockable
+### dockable
 
-#### activable
+### activable
 
-#### headerBtn
+### headerBtn
 
-#### onopen
+### onopen
 
-#### onready
+### onready
 
-#### onclose
+### onclose
 
-#### onok
+### onok
 
-#### oncancel
+### oncancel
 
-#### onminize
+### onminize
 
-#### ondrag
+### ondrag
 
-#### ondragstop
+### ondragstop
 
-#### onresize
+### onresize
 
-#### onactive
+### onactive
 
-#### ondestroy
+### ondestroy
 
-#### animationIn
+### animationIn
 
-#### animationOut
+### animationOut
 
-#### baseClass
+### baseClass
 
-#### bodyClass
+### bodyClass
 
-#### style
+### style
 
-#### dest
+### dest
 
-#### dock
+### dock
 
-#### contextmenu
+### contextmenu
 
-#### msg
+### msg
 
-#### img
+### img
+
+## Return value (WinInstance)
+
+| Name                          | Description                                      |
+|-------------------------------|--------------------------------------------------|
+| [close](#close)               | Closes the window                                |
+| [destroy](#destroy)           | Closes the window immediately with no animations |
+| [maximize](#maximize)         | Maximizes the window                             |
+| [minimize](#minimize)         | Minimizes the window                             |
+| [restore](#restore)           | Opens window after it has been minimized         |
+| [changeSize](#changeSize)     | Changes window size                              |
+| [active](#active)             | Makes the window active                          |
+| [changeTitle](#changeTitle)   | Changes the window title                         |
+| [changeIcon](#changeIcon)     | Changes the window icon                          |
+| [changeFooter](#changeFooter) | Changes the window footer                        |
+
+### close
+
+### destroy
+
+### maximize
+
+### minimize
+
+### restore
+
+### changeSize
+
+### active
+
+### changeTitle
+
+### changeIcon
+
+### changeFooter
