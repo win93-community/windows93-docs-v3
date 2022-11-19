@@ -13,10 +13,11 @@
 
     * [$window](dialog/window/README.md)
     * [$notif](dialog/notif/README.md)
-    * [$confirm](/dialog/confirm/README.md)
-    * [$prompt](/dialog/prompt/README.md)
+    * [$confirm](/dialog/confirm.md)
+    * [$prompt](/dialog/prompt.md)
     * [$alert](dialog/alert/README.md)
     * [$log](dialog/log/README.md)
+    * [🗑️ $note](dialog/note.md)
 
 * 📁 Filesystem
 
@@ -56,6 +57,3 @@
     * [$io](nodoc/io.md)
     * [$box](nodoc/box.md)
     * [$route](nodoc/route.md)
-
-* 💥 Deprecated
-    * [$note](dialog/note.md)
