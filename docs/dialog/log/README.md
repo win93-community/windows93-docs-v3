@@ -43,31 +43,31 @@
 ### Examples 
 These are what the above methods look like
 
-![](/docs/assets/logPass.png)
+![](/assets/logPass.png)
 *A success!*
 
-![](/docs/assets/logFail.png)
+![](/assets/logFail.png)
 *A not so successful success!*
 
-![](/docs/assets/logInfo.png)
+![](/assets/logInfo.png)
 *My reaction to that information*
 
-![](/docs/assets/logCombination.png)
+![](/assets/logCombination.png)
 *What happens when you combine methods?*
 
-![](/docs/assets/logItalic.png)
+![](/assets/logItalic.png)
 *Curvy text...*
 
-![](/docs/assets/logBold.png)
+![](/assets/logBold.png)
 *T H I C C text...*
 
-![](/docs/assets/logWhite.png)
+![](/assets/logWhite.png)
 *What the colors look like. Feel free to add the other ones*
 
-![](/docs/assets/SUCCESS.png)
+![](/assets/SUCCESS.png)
 *What a successful success!*
 
-![](/docs/assets/NOTSUCCESS.png)
+![](/assets/NOTSUCCESS.png)
 *What an unsuccessful failure!*
 
 If the images are not working, please try to fix them, we have a GitHub repo for that...

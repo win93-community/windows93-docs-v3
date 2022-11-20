@@ -12,8 +12,8 @@
 
 ### Examples
 
-![](https://github.com/win93-community/windows93-docs/blob/testing-branch/docs/assets/confirm.png)
+![](/assets/confirm.png)
 *This code...*
 
-![](https://github.com/win93-community/windows93-docs/blob/testing-branch/docs/assets/result.png)
+![](/assets/result.png)
 *... yields this*

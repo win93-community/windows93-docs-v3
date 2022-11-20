@@ -8,7 +8,7 @@
 
 <!-- tabs:start -->
 #### **Screenshot**
-![](assets/notif.png ':ignore')
+![](/assets/notif.png)
 
 #### **Code**
 ```javascript
