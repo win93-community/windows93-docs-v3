@@ -245,35 +245,58 @@ A string of CSS used for the window.
 
 ## Return value (WinInstance)
 
-| Name                          | Description                                      |
-|-------------------------------|--------------------------------------------------|
-| [close](#close)               | Closes the window                                |
-| [destroy](#destroy)           | Closes the window immediately with no animations |
-| [maximize](#maximize)         | Maximizes the window                             |
-| [minimize](#minimize)         | Minimizes the window                             |
-| [restore](#restore)           | Opens window after it has been minimized         |
-| [changeSize](#changeSize)     | Changes window size                              |
-| [active](#active)             | Makes the window active                          |
-| [changeTitle](#changeTitle)   | Changes the window title                         |
-| [changeIcon](#changeIcon)     | Changes the window icon                          |
-| [changeFooter](#changeFooter) | Changes the window footer                        |
+| Name                          | Type     | Description                                      |
+|-------------------------------|----------|--------------------------------------------------|
+| [id](#id)                     | number   | ID of the window                                 |
+| [cfg](#cfg)                   | object   | WinObject instance                               |
+| [el](#el)                     | object   | Object containing window elements                |
+| [close](#close)               | function | Closes the window                                |
+| [destroy](#destroy)           | function | Closes the window immediately with no animations |
+| [maximize](#maximize)         | function | Maximizes the window                             |
+| [minimize](#minimize)         | function | Minimizes the window                             |
+| [restore](#restore)           | function | Opens window after it has been minimized         |
+| [changeSize](#changeSize)     | function | Changes window size                              |
+| [active](#active)             | function | Makes the window active                          |
+| [changeTitle](#changeTitle)   | function | Changes the window title                         |
+| [changeIcon](#changeIcon)     | function | Changes the window icon                          |
+| [changeFooter](#changeFooter) | function | Changes the window footer                        |
+
+### id
+ID of the window.
+
+### cfg
+[WinObject](#parameter-object-winobject) instance.
+
+### el
+Object containing elements for window.
 
 ### close
+Closes the window with an animation. Executes [WinObject.onclose](#onclose)  
+To close a window without an animation, use [destroy](#destroy)
 
 ### destroy
+Closes the window without an animation. Executes [WinObject.ondestroy](#ondestroy)
 
 ### maximize
+Maximizes the window. **Does not execute anything else.**
 
 ### minimize
+Minimizes the window. Executes [WinObject.onminimize](#onminize)
 
 ### restore
+Restores the window. **Does not execute anything else.**
 
 ### changeSize
+Changes the size of the window.
 
 ### active
+Makes the window active. Executes [WinObject.onactive](#onactive)
 
 ### changeTitle
+Changes the window's title.
 
 ### changeIcon
+Changes the window's icon.
 
 ### changeFooter
+Changes the window's footer.
