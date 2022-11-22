@@ -4,11 +4,6 @@
     * [A Brief History](intro/history.md)
     * [Terminology](intro/terminology.md)
 
-* [🎨 CSS Reference](css.md)
-
-* [❗ NOTICE]
-    * [NOTICE](NOTICE.md)
-
 * 💬 Dialogs
 
     * [$window](dialog/window.md)
