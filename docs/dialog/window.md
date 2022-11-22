@@ -191,7 +191,7 @@ Function that executes when the "ok" button is clicked.
 ### oncancel
 Function that executes when the "cancel" button is clicked.
 
-### onminize
+### onminimize
 Function that executes when the window is minimized.
 
 ### ondrag
