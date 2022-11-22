@@ -6,7 +6,7 @@
 
 ## Usage
 
-`let` [`WinInstance`](dialog/window/wininstance/) `=` $window`(`[`WinObject`](#)`)`
+`let` [`WinInstance`](#return-value-wininstance) `=` [$window](#window)`(`[`WinObject`](#parameter-object-winobject)`)`
 
 ## Parameter Object (WinObject)
 
@@ -70,114 +70,178 @@
 \* Only works on $alert, $confirm, and $prompt
 
 ### title
+Title of the window. Can be changed with [WinInstance.changeTitle](#changetitle)  
+Displays at the top of the window in the title bar and the dock.
 
 ### html
+HTML to be displayed in window. Uses Element.innerHTML, so script tags are ignored (see [this MDN section](https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML#security_considerations))
 
 ### icon
+Icon for the window. Displays in dock and title bar next to the [title](#title)
 
 ### help
+Help text or HTML that appears when a user selects the help button.  
+This help button displays next to the minimize button and only appears when this property is truthy.  
+It displays as an [$alert.info](dialog/alert#info) dialog.
 
 ### url
+URL that the window embeds as an iframe.
 
 ### menu
+!> Undocumented
 
 ### header
+Whether the title bar should be visible.
 
 ### footer
+Text to be shown at the footer. Can be modified with [WinInstance.changeFooter](#changefooter)
 
 ### width
+The width of the window in pixels.
 
 ### height
+The width of the window in pixels.
 
 ### borderTopWidth
+!> Undocumented
 
 ### borderBottomWidth
+!> Undocumented
 
 ### borderLeftWidth
+!> Undocumented
 
 ### borderRightWidth
+!> Undocumented
 
 ### baseWidth
+!> Undocumented
 
 ### baseHeight
+!> Undocumented
 
 ### minWidth
+Minimum width of the window in pixels.
 
 ### minHeight
+Minimum height of the window in pixels.
 
 ### top
+Amount of pixels from the top of the screen the window should be.
 
 ### left
+Amount of pixels from the left of the screen the window should be.
 
 ### center
+When true, the window will spawn in the center of the viewport.
 
 ### noOut
+!> Unknown
 
 ### constrain
+When true, keeps the window from moving outside of the viewport.
 
 ### ajax
+!> Undocumented
 
 ### autoMaximize
+When true, this window will be automatically maximized when opened.
 
 ### contextmenuOnBody
+Whether the context menu can be executed on the window body.
 
 ### resizable
+Whether the window can be resized.
 
 ### minimizable
+Whether the window can be minimized.
 
 ### maximizable
+Whether the window can be maximized.
 
 ### closeable
+Whether the window can be closed.
 
 ### draggable
+Whether the window can be dragged around.
 
 ### dockable
+Whether the window appears in the dock.
 
 ### activable
+Whether the window be selected and active by clicking on it.
+!> This is not a good method to use; it is easily bypassable.  
+!> One may easily click on the item in the dock or drag it around to make it become active.
 
 ### headerBtn
+!> Undocumented
 
 ### onopen
+Function that executes when the window is opened.
 
 ### onready
+Function that executes when the window is ready.
 
 ### onclose
+Function that executes when the window is closed.
 
 ### onok
+Function that executes when the "ok" button is clicked.
 
 ### oncancel
+Function that executes when the "cancel" button is clicked.
 
 ### onminize
+Function that executes when the window is minimized.
 
 ### ondrag
+Function that executes when the window is dragged.
 
 ### ondragstop
+Function that executes when the window stops being dragged.
 
 ### onresize
+Function that executes when the window is resized.
 
 ### onactive
+Function that executes when the window is made active.
 
 ### ondestroy
+Function that executes when the window is destroyed.
+!> Please do not use this. [WinInstance.destroy](#destroy) is supposed to destroy a window, and there should not be any after effects.  
+!> Use [onclose](#onclose) instead.
 
 ### animationIn
+Animation used when the window is opened.  
+A list of available animations are available on the https://animate.style/ website.
 
 ### animationOut
+Animation used when the window is closed.  
+A list of available animations are available on the https://animate.style/ website.
 
 ### baseClass
+!> Undocumented
 
 ### bodyClass
+!> Undocumented
 
 ### style
+A string of CSS used for the window.
 
 ### dest
+!> Unknown
 
 ### dock
+!> Unknown
 
 ### contextmenu
+!> Undocumented
 
 ### msg
+!> String/HTML of the message in a small dialogue.
 
 ### img
+!> Image URL of the message in a small dialogue.
 
 ## Return value (WinInstance)
 
