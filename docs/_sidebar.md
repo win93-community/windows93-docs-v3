@@ -3,6 +3,7 @@
     * [Introduction](README.md)
     * [A Brief History](intro/history.md)
     * [Terminology](intro/terminology.md)
+    * [Style Guide](intro/style-guide.md)
 
 * 💬 Dialogs
 
@@ -41,8 +42,6 @@
     * [$clip](utils/clip/README.md)
     * [🗑 $dom](utils/dom.md)
     * [🗑 $iframe](utils/iframe.md)
-
-* [Style Guide](style-guide.md)
 
 * ⛔ Undocumented
 
