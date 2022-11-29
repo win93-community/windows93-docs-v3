@@ -12,7 +12,7 @@
     * [$confirm](/dialog/confirm.md)
     * [$prompt](/dialog/prompt.md)
     * [$alert](dialog/alert/README.md)
-    * [$log](dialog/log/README.md)
+    * [$log](dialog/log.md)
     * [🗑️ $note](dialog/note.md)
 
 * 📁 Filesystem
@@ -21,8 +21,8 @@
     * [$store](filesystem/store.md)
     * [$file](filesystem/file/README.md)
     * [$explorer](filesystem/explorer/README.md)
-    * [$fs](filesystem/fs/README.md)
-    * [$editor](filesystem/editor/README.md)
+    * [$fs](filesystem/fs.md)
+    * [$editor](filesystem/editor.md)
     * [$archive](filesystem/archive.md)
 
 * ⚙ system
