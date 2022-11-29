@@ -1,10 +1,15 @@
 # $alert
-
+### About
+Shows an alert window that the user can close. Can be customized with a WinObject
 ### Examples
 
 ![](/assets/alert.png)
 
-Shows an alert window that the user can close
+![](/assets/alertCustomizedCode.png)
+*This is how you can customize $alert with a WinObject*
+
+![](/assets/alertCustomizedResult.png)
+*The code above yields this*
 
 ### Usage
 
@@ -26,7 +31,7 @@ Shows an alert window that the user can close
 | [progress](#progress) | Displays a loading bar, which may be filled using a function on a loop   |
 | [info](#info)         | Displays a pop-up window that contains some info                         |
 
-#### help
+#### $alert.help
 ##### About
 Shows an alert window against a white background that the user can close. Should be used for well, displaying help.
 ##### Examples
@@ -44,13 +49,14 @@ Shows an alert window against a white background that the user can close. Should
 | callback  | Function            | The callback for the function. Called with true if user presses OK                                                                      |
 
 
-#### Error
+#### $alert.error
 ##### About
 Displays an error. Can contain quite a bit of text to let the user know exactly what went wrong.
 
 ##### Examples
 
 ![](/assets/alertError.jpg ':ignore')
+
 
 ##### Usage
 
@@ -63,13 +69,13 @@ Displays an error. Can contain quite a bit of text to let the user know exactly 
 | callback  | Function            | The callback for the function. Called with true if the user presses OK                                                                  |
 
 
-#### Progress
+#### $alert.progress
 ##### About
 Displays a loading bar to the user. We don't really know much about this, so don't panic, we're trying to find out how this thingy works. We assume you use a loop or a function to increase the bar...
 
 
 
-#### info
+#### $alert.info
 ##### About
 Displays a pop-up that contains info to the user. Used for when you want to provide some sort of tutorial or whatever.
 ##### Examples
