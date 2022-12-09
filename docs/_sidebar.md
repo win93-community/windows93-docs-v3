@@ -46,7 +46,6 @@
 
 * ⛔ Undocumented
 
-    * [$extend](nodoc/extend.md)
     * [$menu](nodoc/menu.md)
     * [$form](nodoc/form.md)
     * [$io](nodoc/io.md)
