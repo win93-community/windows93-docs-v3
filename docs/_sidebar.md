@@ -40,6 +40,7 @@
     * [$url](utils/url/README.md)
     * [$state](utils/state/README.md)
     * [$clip](utils/clip/README.md)
+    * [$extend](utils/extend.md)
     * [🗑 $dom](utils/dom.md)
     * [🗑 $iframe](utils/iframe.md)
 
