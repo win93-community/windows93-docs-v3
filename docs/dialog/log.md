@@ -39,7 +39,7 @@
 ![](/assets/SUCCESS.png)
 *What a successful success!*
 
-![](/assets/NOTSUCCESS.png)
+![](assets/NOTSUCCESS.png)
 *What an unsuccessful failure!*
 
 If the images are not working, please try to fix them, we have a GitHub repo for that...
