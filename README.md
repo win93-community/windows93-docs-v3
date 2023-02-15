@@ -5,8 +5,9 @@ Welcome to the most complete unofficial set of documentation pages available doc
 > We used to use GitBook to document, but now this repository uses github pages and docsify.js  
 > - Old Gitbook documentation here: https://win93.gitbook.io/old-windows93-docs/  
 > - Gitbook documentation here: https://win93.gitbook.io/windows93-docs/  
+> - Old V2 unfinished docs here: https://win93-community.github.io/windows93-docs
 > 
-> **It is important to note that both of these are outdated, please use [the github pages site](https://win93-community.github.io/windows93-docs)**.
+> **It is important to note that all of these are outdated, please use [the github pages site](https://win93-community.github.io/windows93-docs-v3)**.
 
 ## Build
 
