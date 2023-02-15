@@ -1,3 +1,1 @@
-- [Windows 93](https://www.windows93.xyz)
-- [Windows 93 Roadmap](https://www.windows93.xyz/roadmap.html)
-- [windows93-docs Roadmap](https://github.com/orgs/win93-community/projects/1)
+- [Windows 93 V3](https://v3.windows93.xyz)
