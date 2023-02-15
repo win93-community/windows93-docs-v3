@@ -1,5 +1,0 @@
-# silent
-
-### About
-
-Unknown
