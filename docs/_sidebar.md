@@ -5,6 +5,7 @@
 * 🎨 Components
 
     * [dialog](components/dialog.md)
+    * [picto](components/picto.md)
 
 * 💾 Filesystem
 

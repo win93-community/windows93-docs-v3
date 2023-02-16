@@ -1,6 +1,6 @@
 # dialog
 
-[View source](https://v3.windows93.net/c/sys/ui/components/dialog.js)  
+[View Source](https://v3.windows93.net/c/sys/ui/components/dialog.js)  
 The dialog component allows developers to create a simple alert dialog.
 
 ## Usage
