@@ -5,7 +5,9 @@
 * 🎨 Components
 
     * [dialog](components/dialog.md)
+    * [explorer](components/explorer.md)
     * [picto](components/picto.md)
+    * [folder](components/folder.md)
 
 * 💾 Filesystem
 
