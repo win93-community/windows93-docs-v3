@@ -9,6 +9,10 @@
     * [picto](components/picto.md)
     * [folder](components/folder.md)
 
+* 💬 Invocables
+
+    * [alert](invocables/alert.md)
+
 * 💾 Filesystem
 
     * [Copy a Path](fs/copyPath.md)
