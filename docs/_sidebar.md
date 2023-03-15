@@ -1,6 +1,7 @@
 * 👣 Introduction
 
     * [Introduction](intro/intro.md)
+    * [Making an App](intro/making-app.md)
 
 * 🎨 Components
 
