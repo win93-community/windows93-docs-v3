@@ -1,6 +1,6 @@
 * 👣 Introduction
 
-    * [Introduction](README.md)
+    * [Introduction](intro/intro.md)
 
 * 🎨 Components
 
