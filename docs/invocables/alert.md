@@ -1,22 +1,22 @@
 # alert
 
-[View Source](https://github.com/zo/sys42/blob/main/src/42/ui/invocables/alert.js)  
-alert is an invocable that creates an alert. There are three possible argument combinations you can use to create one.
+[View Source](https://github.com/windows93dotnet/sys42/blob/main/src/42/ui/invocables/alert.js)  
+alert is an invocable that creates an alert. There are three approaches you can use to create one.
 
 ## Usage
-```js
+```ts
 import alert from "42/ui/invocables/alert.js"
-const result = await alert(string, object) //route 1
-const result = await alert(errorlike) //route 2
-const result = await alert(object) //route 3
+const approach1: boolean = await alert(string, object)
+const approach2: boolean = await alert(object)
+const approach3: boolean = await alert(object)
 ```
 
-## Arguments (Route 1)
+## Approach 1
 First argument is a string, and second argument is an object
 ### message
 String. Message to be displayed in alert. Default is "".
 
-## Arguments (Route 2)
+## Approach 2
 First argument is errorlike
 ### message
 Error-like.
@@ -33,7 +33,7 @@ con
 #### message
 Alias for [content](#content)
 
-## Arguments (Route 3)
+## Approach 3
 First argument is an object (not error-like)
 ### options
 Object
