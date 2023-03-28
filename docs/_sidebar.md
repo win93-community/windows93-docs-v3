@@ -1,6 +1,6 @@
 * 👣 Introduction
 
-    * [Introduction](intro/intro.md)
+    * [Introduction](README.md)
     * [Making an App](intro/making-app.md)
 
 * 🎨 Components
