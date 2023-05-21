@@ -4,7 +4,7 @@
 Similar to the [folder](components/folder.md) component. Creates a file explorer.  
 Can go up a directory with the `Alt+Up` key combo.
 
-## props
+## Component props
 ### path
 Path explorer should open up to. Default is "/".
 ### view
@@ -20,3 +20,7 @@ Array of selected items.
 ### showHiddenFiles
 Boolean. Whether the explorer should show hidden files. Default is true.  
 Can be changed with the `Ctrl+H` keyboard combo.
+
+## Function arguments
+### path
+### options
