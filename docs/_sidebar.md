@@ -13,6 +13,7 @@
 * 💬 Invocables
 
     * [alert](invocables/alert.md)
+    * [filePickerOpen](invocables/filePickerOpen.md)
 
 * 💾 Filesystem
 
