@@ -1,6 +1,6 @@
 # explorer
 
-[View Source](https://v3.windows93.net/c/sys/ui/components/explorer.js)  
+[View code source](https://github.com/windows93dotnet/sys42/blob/main/src/42/ui/components/explorer.js)  
 Similar to the [folder](components/folder.md) component. Creates a file explorer.  
 Can go up a directory with the `Alt+Up` key combo.
 

@@ -1,6 +1,6 @@
 # alert
 
-[View Source](https://github.com/windows93dotnet/sys42/blob/main/src/42/ui/invocables/filePickerOpen.js)  
+[View code source](https://github.com/windows93dotnet/sys42/blob/main/src/42/ui/invocables/filePickerOpen.js)  
 filePickerOpen can be used to display the open file picker dialog.
 
 ## Usage

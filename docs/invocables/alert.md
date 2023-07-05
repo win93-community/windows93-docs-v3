@@ -1,6 +1,6 @@
 # alert
 
-[View Source](https://github.com/windows93dotnet/sys42/blob/main/src/42/ui/invocables/alert.js)  
+[View code source](https://github.com/windows93dotnet/sys42/blob/main/src/42/ui/invocables/alert.js)  
 alert is an invocable that creates an alert. There are three approaches you can use to create one.
 
 ## Usage

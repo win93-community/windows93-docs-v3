@@ -1,6 +1,6 @@
 # folder
 
-[View Source](https://v3.windows93.net/c/sys/ui/components/folder.js)  
+[View code source](https://github.com/windows93dotnet/sys42/blob/main/src/42/ui/components/folder.js)  
 The folder component is for displaying a list of folders in either a grid layout or tree layout.  
 
 ## props
