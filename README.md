@@ -5,7 +5,8 @@ Welcome to the most complete unofficial set of documentation pages available doc
 ## Build
 
 Luckily, windows93-docs-v3 is a static application (no node.js or other server-side things), so all you need to do is download the code/docs and spin up your web server! (everything is in docs/ directory)  
-Unfortunately this means an internet connection is required initially to download the docsify-js script.
+Unfortunately this means an internet connection is required initially to download the docsify-js script.  
+Either way, it's helpful to globally install the docsify-cli package.
 
 
 ## Contribute
