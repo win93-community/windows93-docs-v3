@@ -4,19 +4,14 @@
 The folder component is for displaying a list of folders in either a grid layout or tree layout.  
 
 ## props
-### path
-Path the folder opens up to.
-### view
-Either "grid" or "tree". Default is "grid".
-### selection
-Array of currently selected items in folder.
-### glob
-Unknown boolean.
-### multiselectable
-Boolean. Whether or not more than one item can be selected.
-### showHiddenFiles
-Boolean value. Whether to show hidden files or not.
-### transferable
-Unknown
-### selectable
-Unknown
+
+| Property         | Type    | Description                                         |
+|------------------|---------|-----------------------------------------------------|
+| `path`           | String  | Path the folder opens up to.                       |
+| `view`           | String  | Either "grid" or "tree". Default is "grid".        |
+| `selection`      | Array   | Array of currently selected items in folder.       |
+| `glob`           | Boolean | Unknown boolean.                                   |
+| `multiselectable`| Boolean | Whether or not more than one item can be selected. |
+| `showHiddenFiles`| Boolean | Whether to show hidden files or not.               |
+| `transferable`   | ?       | Unknown                                            |
+| `selectable`     | ?       | Unknown                                            |
