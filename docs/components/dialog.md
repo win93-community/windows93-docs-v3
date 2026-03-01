@@ -10,20 +10,10 @@ import dialog from "../../sys/ui/components/dialog.js"
 
 ### Arguments
 
-#### args
-Object. Can contain the following properties:
-
-##### label
-Label for the dialog window.
-
-##### content
-Content inside the dialog window
-
-##### picto
-Unknown
-
-##### footer
-Dialog window footer.
-
-##### plugins
-Array of plugin ids
+| Property   | Type   | Description                     |
+|------------|--------|---------------------------------|
+| `label`    | String | Label for the dialog window.    |
+| `content`  | String | Content inside the dialog window|
+| `picto`    | ?      | Unknown                         |
+| `footer`   | String | Dialog window footer.           |
+| `plugins`  | Array  | Array of plugin ids             |
