@@ -13,32 +13,34 @@ const approach3: boolean = await alert(object)
 
 ## Approach 1
 First argument is a string, and second argument is an object
-### message
-String. Message to be displayed in alert. Default is "".
+
+| Property | Type   | Description                  | Default |
+|----------|--------|------------------------------|---------|
+| message  | String | Message to be displayed in alert | ""      |
 
 ## Approach 2
-First argument is errorlike
-### message
-Error-like.
-### options
-Object, with following properties (not all are required):
-#### icon
-String. ID of the icon to be displayed. Default is "error"
-#### label
-String. Label to be displayed in alert. Default is "Alert"
-#### name
-Alias for [label](#label)
-#### content
-con
-#### message
-Alias for [content](#content)
+First argument is error-like
+
+| Property | Type   | Description                  | Default |
+|----------|--------|------------------------------|---------|
+| message  | Error-like | Message to be displayed in alert |         |
+| options  | Object | See below for properties     |         |
+
+### Options
+| Property | Type   | Description                  | Default |
+|----------|--------|------------------------------|---------|
+| icon     | String | ID of the icon to be displayed | "error" |
+| label    | String | Label to be displayed in alert | "Alert" |
+| name     | String | Alias for label              |         |
+| content  | String | Content to be displayed      |         |
+| message  | String | Alias for content            |         |
 
 ## Approach 3
 First argument is an object (not error-like)
-### options
-Object
-#### message
-string with message
+
+| Property | Type   | Description                  |
+|----------|--------|------------------------------|
+| message  | String | Message to be displayed in alert |
 
 ## Returns
 true
