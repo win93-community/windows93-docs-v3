@@ -3,12 +3,13 @@
     * [Making an App](intro/making-app.md)
     * [FAQ](intro/faq.md)
 
-* 🎨 Components
+* 🎨 UI
 
     * [dialog](components/dialog.md)
     * [explorer](components/explorer.md)
     * [picto](components/picto.md)
     * [folder](components/folder.md)
+    * [toast](components/toast.md)
 
 * 💬 Invocables
 
