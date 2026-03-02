@@ -45,7 +45,7 @@ JSON5 is a more relaxed version of JSON, and allows comments and single-quotes.
 | **zoom**       | Unknown    | No       | Unknown.                                                                                          |
 | **decode**     | Unknown    | No       | Unknown.                                                                                          |
 | **encode**     | Unknown    | No       | Unknown.                                                                                          |
-| **about**      | String     | No       | A short summary about the app. Will show in the about window.                                    |
+| **about**      | Path       | No       | A path to a file that displays when a user clicks the question mark icon                                    |
 | **license**    | String     | No       | The license under which the app is distributed. Will show in the about window.                   |
 | **authors**    | String     | No       | The authors or contributors of the app. Will show in the about window.                           |
 | **options**    | Object/Array/String     | No       | [See below](#options)                           |

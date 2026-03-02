@@ -1,4 +1,80 @@
 # picto
 
 [View code source](https://github.com/windows93dotnet/sys42/blob/main/src/42/ui/components/picto.js)  
-In Windows93, a picto is a small SVG component that serves as an icon. The list of pictos is in [YOUR_THEME_ID]/pictos.
+In Windows93, a picto is a small 16x16 or 32x32 component that serves as an icon.  
+These icons mostly represent files.
+
+## picto list
+Here are the valid icons.
+
+* ani
+* cue
+* cur
+* pdf
+* url
+* img_chd
+* manifest.json5
+* run
+* mail
+* mixer
+* config
+* generic
+* install
+* package
+* session
+* standby
+* calendar
+* programs
+* settings
+* shutdown
+* documents
+* search-file
+* `www.youtube.com`
+* font
+* text
+* audio
+* image
+* model
+* video
+* application
+* folder
+* user-trash
+* folder-open
+* folder-fonts
+* folder-desktop
+* user-trash-full
+* network-workgroup
+* folder-development
+* folder-sound-symbolic
+* audio-on
+* audio-off
+* mouse
+* computer
+* joystick
+* keyboard
+* drive-storage
+* drive-harddisk
+* help
+* info
+* error
+* warning
+* question
+* forbidden
+* css
+* gif
+* png
+* xml
+* html
+* jpeg
+* midi
+* wasm
+* webp
+* x-nfo
+* x-ansi
+* x-icon
+* svg+xml
+* markdown
+* javascript
+* json_json5
+* octet-stream
+* zip_gzip_x-tar_x-7z-compressed_vnd.rar
