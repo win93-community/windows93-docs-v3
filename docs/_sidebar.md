@@ -23,3 +23,4 @@
 * ⚙️ Internals
     * [IndexedDB](internals/indexeddb.md)
     * [Exec](internals/exec.md)
+    * [Explorer](internals/explorer.md)
