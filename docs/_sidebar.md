@@ -1,6 +1,7 @@
-* 👣 Introduction
-
+* 👣 Guide
+    * [The Basics](intro/basics.md)
     * [Making an App](intro/making-app.md)
+    * [Document vs module](intro/document-vs-module.md)
     * [FAQ](intro/faq.md)
 
 * 🎨 UI

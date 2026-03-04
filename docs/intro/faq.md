@@ -8,3 +8,9 @@ If the shortcut lacks a name, the filename (without .desktop) will be used inste
 
 The system will scan for programs in `/c/programs` that have `Exec` matching the [`command` property in the manifest](intro/making-app.md).  
 Additionally, the file icon will be determined by the icon in the `Exec` program directory if no icon is provided.
+
+## What are some good practices to follow?
+* Being mindful of memory use and program efficiency (especially document-base)
+
+## What are bad practices to avoid?
+Polluting the global scope. Module-based apps can easily set variables such as `window.foo` or `globalThis.foo`. This should be avoided at all costs
