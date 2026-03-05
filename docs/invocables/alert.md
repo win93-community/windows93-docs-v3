@@ -1,5 +1,7 @@
 # alert
 
+> [!CAUTION] [This is outdated, feel free to contribute to the docs and update this page. Otherwise it'll get updated in a few weeks.](https://github.com/win93-community/windows93-docs-v3)
+
 [View code source](https://github.com/windows93dotnet/sys42/blob/main/src/42/ui/invocables/alert.js)  
 alert is an invocable that creates an alert. There are three approaches you can use to create one.
 

@@ -1,6 +1,5 @@
 # picto
 
-[View code source](https://github.com/windows93dotnet/sys42/blob/main/src/42/ui/components/picto.js)  
 In Windows93, a picto is a small 16x16 or 32x32 component that serves as an icon.  
 These icons mostly represent files.
 

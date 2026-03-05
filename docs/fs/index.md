@@ -1,5 +1,7 @@
 # Filesystem Documentation
 
+> [!CAUTION] [This is outdated, feel free to contribute to the docs and update this page. Otherwise it'll get updated in a few weeks.](https://github.com/win93-community/windows93-docs-v3)
+
 ## Copy a Path
 You can copy a path in Windows93 by using the `sys42.actions.copyPath` method.
 
