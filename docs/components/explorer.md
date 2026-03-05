@@ -1,5 +1,7 @@
 # explorer
 
+> [!CAUTION] [This is outdated, feel free to contribute to the docs and update this page. Otherwise it'll get updated in a few weeks.](https://github.com/win93-community/windows93-docs-v3)
+
 [View code source](https://github.com/windows93dotnet/sys42/blob/main/src/42/ui/components/explorer.js)  
 Similar to the [folder](components/folder.md) component. Creates a file explorer.  
 Can go up a directory with the `Alt+Up` key combo.

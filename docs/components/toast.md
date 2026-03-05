@@ -1,7 +1,5 @@
 # toast
 
-[View code source](https://github.com/windows93dotnet/sys42/blob/main/src/42/ui/components/toast.js)  
-
 ## Usage
 > import {toast} from "42/ui/components/toasts.js"  
 > const toast = sys42.toast
