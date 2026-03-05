@@ -13,4 +13,8 @@ Additionally, the file icon will be determined by the icon in the `Exec` program
 * Being mindful of memory use and program efficiency (especially document-base)
 
 ## What are bad practices to avoid?
-Polluting the global scope. Module-based apps can easily set variables such as `window.foo` or `globalThis.foo`. This should be avoided at all costs
+Polluting the global scope. Module-based apps can easily set variables such as `window.foo` or `globalThis.foo`. This should be avoided at all costs.  
+Also, being reliant on global-scope APIs, specifically `globalThis.sys42` should be avoided.
+
+## `Invalid command` when I try to run my app
+There is likely a syntax error in your app manifest.
