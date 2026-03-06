@@ -4,7 +4,7 @@ Plan is the name of the reactive system commonly used for defining UI components
 *Plan* is also used to refer to a specific group of components using this system.  
 > [!WARNING] Plan can only be used with JavaScript apps, not HTML documents.
 
-> Plans should only be used to create complex windows. Simple alert dialogs, prompts, etc can be created using the builtin handlers.  
+> Plans should only be used to create complex windows. Simple alert dialogs, prompts, etc can be created using invocables.  
 > See the UI section for that.
 
 At the highest level, a plan is a plain old object.  
@@ -69,34 +69,37 @@ There are a variety of use cases for this.
 * *Documentation note: plan rendering logic is in `/42/api/gui/render.js`*
 
 ## Known property list
-| Property     | Type                                                | Description                                              |
-|--------------|-----------------------------------------------------|----------------------------------------------------------|
-| tag          | string                                              |                                                          |
-| state        | any                                                 |                                                          |
-| computed     | any                                                 |                                                          |
-| label        | Plan                                                |                                                          |
-| list         |                                                     |                                                          |
-| content      | Plan                                                |                                                          |
-| fragment     | boolean                                             |                                                          |
-| box          | PlanObject                                          |                                                          |
-| picto        | PlanPicto                                           |                                                          |
-| css          |                                                     |                                                          |
-| created      | `(el: HTMLElement \| SVGElement, data:any) => void` | Very useful. Look at textedit code to see how they do it |
-| on           | any                                                 | Event listener                                           |
-| action       | Function                                            |                                                          |
-| animation    | any                                                 |                                                          |
-| menu         |                                                     |                                                          |
-| range        | string                                              |                                                          |
-| position     | boolean                                             | Alias for positionable                                   |
-| positionable | boolean                                             |                                                          |
-| bind         | string \| AudioParam                                |                                                          |
-| movable      | boolean                                             |                                                          |
-| selectable   | boolean                                             |                                                          |
-| transferable | boolean                                             |                                                          |
-| unrollable   | boolean                                             |                                                          |
-| renamable    | boolean                                             |                                                          |
-| plugins      |                                                     |                                                          |
-| if           | any                                                 |                                                          |
+| Property      | Type                                                | Description                                              |
+|---------------|-----------------------------------------------------|----------------------------------------------------------|
+| tag           | string                                              |                                                          |
+| state         | any                                                 |                                                          |
+| computed      | any                                                 |                                                          |
+| label         | Plan                                                |                                                          |
+| list          |                                                     |                                                          |
+| content       | Plan                                                |                                                          |
+| fragment      | boolean                                             |                                                          |
+| box           | PlanObject                                          |                                                          |
+| picto         | PlanPicto                                           |                                                          |
+| css           |                                                     |                                                          |
+| created       | `(el: HTMLElement \| SVGElement, data:any) => void` | Very useful. Look at textedit code to see how they do it |
+| on            | `{...(event: () => {})}`                            | Event listeners                                          |
+| buttons       | `{before: any[], after: any[]}`                     |                                                          |
+| action        | Function                                            |                                                          |
+| animation     | any                                                 |                                                          |
+| menu          |                                                     |                                                          |
+| range         | string                                              |                                                          |
+| position      | boolean                                             | Alias for positionable                                   |
+| positionable  | boolean                                             |                                                          |
+| bind          | string \| AudioParam                                |                                                          |
+| movable       | boolean                                             |                                                          |
+| selectable    | boolean                                             |                                                          |
+| transferable  | boolean                                             |                                                          |
+| unrollable    | boolean                                             |                                                          |
+| renamable     | boolean                                             |                                                          |
+| plugins       |                                                     |                                                          |
+| if            | any                                                 |                                                          |
+| beforeContent | Plan                                                |                                                          |
+| afterContent  | Plan                                                |                                                          |
 
 ## Examples
 I'll add some soon. For now, look at apps that have a `module` property in their app manifest, and their scripts.

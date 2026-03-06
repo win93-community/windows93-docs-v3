@@ -5,7 +5,7 @@
     * [Using Plan](intro/plan.md)
     * [FAQ](intro/faq.md)
 
-* 🎨 UI
+* 🎨 Components
 
     * [dialog](components/dialog.md)
     * [explorer](components/explorer.md)
@@ -15,12 +15,16 @@
 
 * 💬 Invocables
 
+    * [explorer](invocables/explorer.md)
     * [alert](invocables/alert.md)
-    * [filePickerOpen](invocables/filePickerOpen.md)
 
 * 💾 Filesystem
 
     * [APIs](fs/index.md)
+
+* 🎵 Audio
+
+    * [Developing for audio](intro/audio-app.md)
 
 * ⚙️ Internals
     * [IndexedDB](internals/indexeddb.md)
