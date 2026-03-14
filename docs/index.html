@@ -57,12 +57,14 @@
         document.write(randomThings[Math.floor(Math.random()*randomThings.length)]) //yes, that's a deprecated/non-standard function but who cares
       </script>
     </div>
+    <script src="//cdn.jsdelivr.net/npm/docsify-edit-on-github"></script>
     <script>
       window.$docsify = {
         name: "Windows93 V3 Docs",
         logo: 'https://raw.githubusercontent.com/ming736/w93/main/favicon_hr.ico',
         repo: "win93-community/windows93-docs-v3",
         notFoundPage: true,
+        executeScript: true,
         pagination: {
             previousText: 'Back',
             nextText: 'Next',
@@ -70,6 +72,9 @@
             crossChapterText: false,
         },
         loadSidebar: true,
+        plugins: [
+      EditOnGithubPlugin.create("https://github.com/win93-community/windows93-docs-v3/blob/master/docs/")
+    ]
       };
     </script>
     <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
