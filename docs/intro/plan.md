@@ -82,7 +82,7 @@ There are a variety of use cases for this.
 | picto         | PlanPicto                                           |                                                          |
 | css           |                                                     |                                                          |
 | created       | `(el: HTMLElement \| SVGElement, data:any) => void` | Very useful. Look at textedit code to see how they do it |
-| on            | `{...(event: () => {})}`                            | Event listeners                                          |
+| on            | `{...(event: () => {})}`                            | [Event listeners](/intro/on)                                          |
 | buttons       | `{before: any[], after: any[]}`                     |                                                          |
 | action        | Function                                            |                                                          |
 | animation     | any                                                 |                                                          |
