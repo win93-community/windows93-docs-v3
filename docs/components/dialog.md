@@ -1,7 +1,5 @@
 # dialog
 
-> [!CAUTION] [This is outdated, feel free to contribute to the docs and update this page. Otherwise it'll get updated in a few weeks.](https://github.com/win93-community/windows93-docs-v3)
-
 The dialog component allows developers to create dialog windows.
 
 ## Usage
@@ -11,15 +9,7 @@ import dialog from "../../sys/ui/components/dialog.js"
 var somedialog = await dialog({width: 300, height: 200, picto: "warning", label: "Test dialog", content: "Hello world!"})
 ```
 
-### Dialog Optins
-
-| Property   | Type   | Description                     |
-|------------|--------|---------------------------------|
-| `label`    | String | Label for the dialog window.    |
-| `content`  | String/Plan | Content inside the dialog window|
-| `picto`    | String    | Specifies pictogram in the topleft corner                         |
-| `footer`   | String | Dialog window footer.           |
-| `plugins`  | Array  | Array of plugin ids             |
+### Dialog Options
 
 | Property       | Type                    | Description 
 |----------------|-------------------------|-------------
@@ -55,7 +45,7 @@ Closes the dialog, ok doesn't *really* affect anything. The ok value won't be vi
 ### resize(int width, int height, json options)
 Resizes the dialog.
 
-Available json options:
+Available JSON options:
 
 | Name      | Type        | Description
 |-----------|-------------|-------------
@@ -70,6 +60,8 @@ Available json options:
 ### moveToCenter(json options)
 > [!CAUTION] [This method seems to be buggy]
 Centers the dialog.
+
+Available JSON options:
 
 | Name         | Type    | Description
 | `animate`    | Boolean | Whether to animate or not (seems to be broken)
