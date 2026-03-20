@@ -29,13 +29,11 @@ First argument is error-like
 | options  | Object | See below for properties     |         |
 
 ### Options
-| Property | Type   | Description                  | Default |
-|----------|--------|------------------------------|---------|
-| icon     | String | ID of the icon to be displayed | "error" |
-| label    | String | Label to be displayed in alert | "Alert" |
-| name     | String | Alias for label              |         |
-| content  | String | Content to be displayed      |         |
-| message  | String | Alias for content            |         |
+*This is an extension of the dialog options*
+| Name          | Type | Description
+| agree         | String | text for the "Ok" button
+| beforeAgree   | String/Plan/HTMLElement | Content to be rendered to the left of the "Ok" button
+| afterAgree    | String/Plan/HTMLElement | Content to be rendered to the right of the "Ok button
 
 ## Approach 3
 First argument is an object (not error-like)
