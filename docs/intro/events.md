@@ -1,4 +1,7 @@
-# Event listeners (`on`)
+# Event listeners
+
+> [!TIP] You can dispatch events very easily. Use `EventTarget.dispatchEvent(eventName)`.  
+> For example, to reboot the system, use `window.dispatchEvent(new CustomEvent("ui:desktop.reboot"))`
 
 Use `on` as a reactive object property inside a `plan` layout node.
 
@@ -267,3 +270,21 @@ Internally this may apply `tabIndex: -1` so keyboard capture can work reliably.
 
 - keep shortcut tokens explicit when possible (`Control` over `Ctrl`) for readability
 - use `prevent` or `disrupt` for browser-reserved shortcuts like save/find
+
+
+# Event reference
+Events can be listened to through plan's `on` or through `EventTarget.addEventListener`.
+
+## `ui:desktop.reboot`
+Reboots the system
+
+## `ui:menu.items`
+Fires when a menu is opened (typically a context menu).
+This is useful for extending explorer and adding entries to the context menu.
+The "opener" is in `e.target.openerEl`
+
+## `ui:explorer.navigate`
+Fires when explorer changes the active directory
+
+## `ui:folder.nonexistant`
+Most likely indicates fileindex corruption

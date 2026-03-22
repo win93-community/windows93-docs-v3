@@ -66,7 +66,7 @@ There are a variety of use cases for this.
   * Function - Plan will (synchronously) execute the function and render its return value
   * Object - already explained
   * Array - will render each Plan in the array.
-* *Documentation note: plan rendering logic is in `/42/api/gui/render.js`*
+* *Documentation note: plan rendering logic is in `/42/api/gui/render.js`
 
 ## Known property list
 | Property      | Type                                                | Description                                              |
@@ -82,7 +82,7 @@ There are a variety of use cases for this.
 | picto         | PlanPicto                                           |                                                          |
 | css           |                                                     |                                                          |
 | created       | `(el: HTMLElement \| SVGElement, data:any) => void` | Very useful. Look at textedit code to see how they do it |
-| on            | `{...(event: () => {})}`                            | [Event listeners](/intro/on)                                          |
+| on            | `{...(event: () => {})}`                            | [Event listeners](/intro/events)                                          |
 | buttons       | `{before: any[], after: any[]}`                     |                                                          |
 | action        | Function                                            |                                                          |
 | animation     | any                                                 |                                                          |
