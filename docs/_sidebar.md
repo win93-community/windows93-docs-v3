@@ -27,6 +27,7 @@
     * [Developing for audio](intro/audio-app.md)
 
 * ⚙️ Internals
+    * [Boot process](internals/boot.md)
     * [IndexedDB](internals/indexeddb.md)
     * [Exec](internals/exec.md)
     * [Explorer](internals/explorer.md)
