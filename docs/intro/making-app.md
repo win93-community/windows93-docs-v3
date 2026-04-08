@@ -33,6 +33,7 @@ JSON5 is a more relaxed version of JSON, and allows comments and single-quotes.
 | **decode.types**          | Array               | Filetypes your app can open. Array of objects with `description` (friendly string) and `accept` (mimetype).                                                             |
 | **multiple**              | Boolean             | Whether your app can open multiple windows at once.                                                                                                                     |
 | **suspendIntensiveTasks** | boolean             | Pauses dynamic wallpaper, GIFs while the app is running.                                                                                                                |
+| **tray**                  | Boolean             | Whether your app should be registered as a system tray                                                                                                                  |
 | **empty**                 | Boolean             | Unknown.                                                                                                                                                                |
 | **width**                 | Number              | Width of the app window in pixels.                                                                                                                                      |
 | **height**                | Number              | Height of the app window in pixels.                                                                                                                                     |
@@ -63,21 +64,16 @@ All items in the array are considered `true`.
 #### If `options` is a String:
 The string represents a single option considered `true`.
 
-
-## App code
-Modules have special defined variables that you can use to interact with the system. They are executed right before the app starts.
-You can override this and make it so that the app starts while your module is still executing, but it is not recommended. To use this approach, run `$app.start()` inside of your module code.  
-Below is a list of all variables available in the global scope of your app modules. They are listed in order of declaration.
-
-| Variable      | Description                                                              |
-|---------------|--------------------------------------------------------------------------|
-| **App**       | The OS App class.                                                        |
-| **$manifest** | The app manifest. Same as the app.json5 file.                            |
-| **$app**      | The app instance, an instance of the app class with the manifest loaded. |
-| **$files**    | Alias for `$app.state.$files`.                                           |
-
 ## Icons
 
 App icons should be in the program directory.  
 There are two variants that should be used: `icon-16` and `icon-32`, for 16x16 and 32x32 image sizes respectively.  
 Icons may be PNGs or GIFs. Other image types may work but haven't been tested/relied upon.
+
+## Module exports
+All of the following exports pass along one parameter, `app`, which is the app instance.
+
+* `launchApp`: Most powerful export. The apps manager expects apps using this export to create the UI itself.
+* `renderApp`: Main export. Expects plan. Only runs if launchApp is not present.
+* `execApp`: Runs after `renderApp`. Useful for executing side effects, hooking, etc.
+* `destroyApp`: Runs when the app is closed. Useful for cleanup.

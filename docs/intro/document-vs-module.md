@@ -4,8 +4,8 @@ The first thing you have to decide when starting your app is whether to base you
 
 You can always mix-and-match both in your app, but your program must have a *base*. This base will be your entry point.
 
-> Before Windows 93 V3, developers argued over lack of effort in apps by describing them as iFrame apps, because they simply presented a frame of an already existant webpage.
-> Now, document-based programs run in iFrames
+> Before Windows 93 V3, developers argued over lack of effort in apps by describing them as iFrame apps, because they simply presented a frame of an already existant webpage.  
+> Now, developers are encouraged to use the document-based approach if their app is relatively self-contained.
 
 ## Document
 Document, or the HTML entry point, is similar to building a website. Your document will run in an iFrame, but is able to communicate with the system using sys42.
@@ -19,7 +19,4 @@ This will use up significantly more memory and computational power. Globals in y
 Module uses a JavaScript file as an entry point. UI elements created will not go in iFrames.  
 To create GUI elements, developers should use the `plan` system.  
 
-Module requires a function of this signature:
-```
-export async function renderApp(app)
-```
+Module requires certain exports. Read more [here](intro/making-app?id=module-exports).
