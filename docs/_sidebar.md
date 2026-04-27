@@ -5,6 +5,8 @@
     * [Using Plan](intro/plan.md)
     * [FAQ](intro/faq.md)
 
+* [🗨️ Trollbox](tb.md)
+
 * 🎨 Components
 
     * [dialog](components/dialog.md)
