@@ -3,9 +3,34 @@
 In Windows93, a picto is a small 16x16 or 32x32 component that serves as an icon.  
 These icons mostly represent files.
 
-## picto list
-Here are the valid icons.
+**Usage:**
+Picto uses the `ui-picto` component. The `value` prop is the picto's identifier (if a native picto) or the path to a custom image. The `size` prop is the size of the picto in pixels (default is 16).
 
+<details>
+<summary>Rendering logic</summary>
+
+
+> [!TIP]
+> Rendering logic is handled by `/42/ui/media/picto.js`
+
+
+Picto checks for the following in order:
+1. "transparent"
+2. SVG pictos
+3. Custom pictos (blobs and URLs)
+4. Native pictos (valid icon names, handled by the `iconsManager`)
+
+Most interestingly, a picto can either be a \<svg> or a \<img>.
+</details>
+
+## Custom Pictos
+
+Any image file can be used as a picto. Most notably, the windows93 logo does not have a native picto, but you can use `/c/users/windows93/pictures/logo/windows93.png` as the picto value.
+
+## Image Pictos
+Here are the valid icons. With the exception of *transparent*, These are located in `/42/assets/icons`.
+
+* transparent
 * ani
 * cue
 * cur
@@ -78,9 +103,9 @@ Here are the valid icons.
 * octet-stream
 * zip_gzip_x-tar_x-7z-compressed_vnd.rar
 
-## small pictos
+## SVG Pictos
 
-These are best suitable for 16x16 icons. View renderings [here](https://windows93.net/42/docs/)
+These are single-color (black) pictos. They are best suitable for 16x16 icons. View renderings [here](https://windows93.net/42/docs/demos/ui/media/pictos.html). They are located in `/42/assets/img/pictos.svg`
 
 - file
 - file-new

@@ -1,6 +1,6 @@
 # dialog
 
-The dialog component allows developers to create dialog windows.
+The ui-dialog component allows developers to create windows.
 
 ## Usage
 ```js
@@ -8,6 +8,24 @@ import dialog from "../../sys/ui/components/dialog.js"
 // dialog({your_dialog_opts})
 var somedialog = await dialog({width: 300, height: 200, picto: "warning", label: "Test dialog", content: "Hello world!"})
 ```
+
+## Events
+
+> [!TIP] Learn more about events in the [events documentation](../intro/events.md)
+
+The following events are emitted by the dialog component:
+
+- ui:dialog.open
+- ui:dialog.close
+- ui:dialog.before-open
+- ui:dialog.before-remove
+- ui:dialog.activate
+- ui:dialog.maximize
+- ui:dialog.restore
+- ui:dialog.title-change
+- ui:dialog.picto-change
+- ui:dialog.pivot-change
+- ui:dialog.destroy
 
 ### Dialog Options
 

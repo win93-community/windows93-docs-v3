@@ -1,6 +1,6 @@
 # Event listeners
 
-> [!TIP] You can dispatch events very easily. Use `EventTarget.dispatchEvent(eventName)`.  
+> [!TIP] You can dispatch events very easily. Use `EventTarget.dispatchEvent(new CustomEvent("eventName"))`.  
 > For example, to reboot the system, use `window.dispatchEvent(new CustomEvent("ui:desktop.reboot"))`
 
 Use `on` as a reactive object property inside a `plan` layout node.
