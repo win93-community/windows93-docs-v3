@@ -1,7 +1,11 @@
+---
+sidebar_position: 2
+---
+
 # Filesystem information
 
-Windows 93 uses IndexedDB to store files.  
-There exist two buckets, each with one object store called `store`. `fileindex` is first initialized as a dump of /files.cbor.  
+Windows 93 uses IndexedDB to store files.
+There exist two buckets, each with one object store called `store`. `fileindex` is first initialized as a dump of /files.cbor.
 `fs` is all .desktop files, etc. Each file is given a unique identifier, and is stored as a [File](https://developer.mozilla.org/en-US/docs/Web/API/File) object.
 
 # Creating a driver
@@ -37,7 +41,9 @@ A new driver should have a unique mask value. *Do not follow the sequential orde
 
 The simplest path is to extend `BrowserDriver` in `42/api/fs/class/BrowserDriver.js`.
 
-> [!TIP] Don't extend Driver.js
+:::tip
+Don't extend Driver.js
+:::
 
 You must provide:
 
@@ -115,7 +121,7 @@ Rules:
 
 ## Eager loading vs lazy loading
 
-Eager loading imports all drivers up front - basically, faster first-use access at the cost of higher startup time/memory.  
+Eager loading imports all drivers up front - basically, faster first-use access at the cost of higher startup time/memory.
 Lazy loading loads driver code only when a mounted path first needs it.
 
 If code paths use eager loading via `42/api/fs/getDriver.js`, also:
@@ -136,7 +142,7 @@ Options:
 - global mount: set `places: { "/": "mybackend" }` in fs.js
 - scoped mount: call `fs.mount("/some/path", "mybackend")`
 
-Longest matching mount path wins (see sort logic in `42/api/fs.js#L104`).  
+Longest matching mount path wins (see sort logic in `42/api/fs.js#L104`).
 
 For browser-dependent APIs, implement feature detection in `init()` and fallback to IndexedDB when unavailable.
 

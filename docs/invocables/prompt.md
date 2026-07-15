@@ -1,11 +1,15 @@
-# Confirm
+---
+sidebar_position: 4
+---
+
+# Prompt
 
 ## Usage
 
 ```js
 import { prompt, alert } from "/42/ui/layout/dialog.js"
 
-// await confirm(message, opts) -> string/undefined (undefined if cancelled)
+// await prompt(message, opts) -> string/undefined (undefined if cancelled)
 
 let name = await prompt("What is your name?", {label: "hey kid", agree: "my name is..", decline: "stranger danger!!"})
 if (name) {
@@ -25,4 +29,3 @@ if (name) {
 | afterAgree    | String/Plan/HTMLElement | Content to be rendered to the right of the "Ok button
 | beforeDecline | String/Plan/HTMLElement | Content to be rendered to the left of the "Cancel" button
 | afterDecline  | String/Plan/HTMLElement | Content to be rendered to the right of the "Cancel" button
-

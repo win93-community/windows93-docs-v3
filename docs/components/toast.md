@@ -1,8 +1,15 @@
+---
+sidebar_position: 5
+---
+
 # toast
 
 ## Usage
-> import {toast} from "42/ui/components/toasts.js"  
-> const toast = sys42.toast
+
+```js
+import {toast} from "42/ui/components/toasts.js"
+const toast = sys42.toast
+```
 
 The toast component is used to display temporary notifications or messages to the user.
 
@@ -27,9 +34,9 @@ The toast component is used to display temporary notifications or messages to th
 | `closeable`          | Boolean                                                  | No       |                                   |                                         |
 | `afterContent`       | String                                                   | No       |                                   |                                         |
 | `closeOnContextMenu` | Boolean                                                  | No       |                                   |                                         |
-| `animateFrom`        | Object: {translate: String(percentage), opacity: Number} | No       | { translate: "100%", opacity: 0 } |                                         |
+| `animateFrom`        | Object: `{translate: String(percentage), opacity: Number}` | No       | `{ translate: "100%", opacity: 0 }` |                                         |
 | `timeout`            | Integer                                                  | No       | 500                               |                                         |
-| `animateTo`          | Object: {translate: String(percentage), opacity: Number} | No       |                                  |                                         |
+| `animateTo`          | Object: `{translate: String(percentage), opacity: Number}` | No       |                                  |                                         |
 | `container`          | HTMLElement                                              | No       | document.documentElement          |                                         |
 
 ## Examples
@@ -63,4 +70,3 @@ const options = {
 };
 toast(options);
 ```
-

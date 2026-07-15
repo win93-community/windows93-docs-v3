@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # Filesystem
 
 ## Usage
@@ -10,9 +14,13 @@ const { fs } = sys42
 
 `fs` is an instance of `FileSystem`.
 
-> [!CAUTION] Do not create new instances of `FileSystem`.
+:::caution
+Do not create new instances of `FileSystem`.
+:::
 
-> [!TIP] View the [driver internals page](/internals/indexeddb) to learn more about mount configuration.
+:::tip
+View the [driver internals page](../internals/indexeddb.md) to learn more about mount configuration.
+:::
 
 ## Type notes
 
@@ -311,7 +319,9 @@ The class emits at least:
 
 Emission can be suppressed in recursive/internal calls by passing `silent: true`.
 
-> [!TIP] [View the events reference](/intro/events)
+:::tip
+[View the events reference](../intro/events.md)
+:::
 
 ## Practical examples
 

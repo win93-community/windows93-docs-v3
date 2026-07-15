@@ -1,8 +1,14 @@
-# alert
+---
+sidebar_position: 5
+---
 
-> [!CAUTION] [This is outdated, feel free to contribute to the docs and update this page. Otherwise it'll get updated in a few weeks.](https://github.com/win93-community/windows93-docs-v3)
+# File Picker Open
 
-[View code source](https://github.com/windows93dotnet/sys42/blob/main/src/42/ui/invocables/filePickerOpen.js)  
+:::caution
+This is outdated, feel free to contribute to the docs and update this page. Otherwise it'll get updated in a few weeks.
+:::
+
+[View code source](https://github.com/windows93dotnet/sys42/blob/main/src/42/ui/invocables/filePickerOpen.js)
 filePickerOpen can be used to display the open file picker dialog.
 
 ## Usage
@@ -23,4 +29,4 @@ const result = await filePickerOpen(path: string, options: object)
 | agree    | String | Text for the agree button                |
 | decline  | String | Text for the decline button              |
 
-The options object can also include the properties in the [Explorer function options object](components/explorer.md#options).
+The options object can also include the properties in the [Explorer function options object](explorer.md#options).
