@@ -1,3 +1,7 @@
+---
+sidebar_position: 8
+---
+
 # Trollbox Documentation
 
 ## Overview
@@ -57,7 +61,7 @@ socket.emit('message', msg);
 ## Socket Events Received (Server → Client)
 
 ### `connect`
-Fired when the WebSocket connection is successfully established.  
+Fired when the WebSocket connection is successfully established.
 Emits initial "user joined" event with current user's data
 
 ---
@@ -203,4 +207,3 @@ Fired when the user list changes (user joins, leaves, or changes nick).
 - Font size: 12px
 
 **User list hover:** `#494A44` background on interaction
-

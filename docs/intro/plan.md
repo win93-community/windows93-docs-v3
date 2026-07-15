@@ -1,14 +1,21 @@
+---
+sidebar_position: 4
+---
+
 # Using Plan
 
 Plan is the name of the reactive system commonly used for defining UI components using JSON within a JavaScript module.
-*Plan* is also used to refer to a specific group of components using this system.  
-> [!WARNING] Plan can only be used with JavaScript apps, not HTML documents.
+*Plan* is also used to refer to a specific group of components using this system.
 
-> Plans should only be used to create complex windows. Simple alert dialogs, prompts, etc can be created using invocables.  
+:::warning
+Plan can only be used with JavaScript apps, not HTML documents.
+:::
+
+> Plans should only be used to create complex windows. Simple alert dialogs, prompts, etc can be created using invocables.
 > See the UI section for that.
 
-At the highest level, a plan is a plain old object.  
-It is very similar to HTML. Here is a very simple comparison of plan to HTML. This example is taken from the TextArea app.  
+At the highest level, a plan is a plain old object.
+It is very similar to HTML. Here is a very simple comparison of plan to HTML. This example is taken from the TextArea app.
 The following plan:
 ```js
 const id = "app__text__2"
@@ -46,14 +53,14 @@ Rather you may use a css class such as the following:
 tag: ".flex-rows"
 ```
 
-There will be a sys42 CSS reference soon.  
+There will be a sys42 CSS reference soon.
 
-All other properties on the object can be their HTML equivalents. When dealing with properties with dashes (aria-hidden, data-url, etc), put the items into nested objects. See the example above with aria-busy.  
+All other properties on the object can be their HTML equivalents. When dealing with properties with dashes (aria-hidden, data-url, etc), put the items into nested objects. See the example above with aria-busy.
 You can embed plan components into other plan components by using the `content[]` property. While you can only have one root node, you may have as many children as you'd like.
 
 Plan is more complex than most people realize.
 It supports conditionals, with "if" being a valid property. If the statement in `if` evaluates to false, the component will not render.
-There are a variety of use cases for this. 
+There are a variety of use cases for this.
 
 ## Quirks
 * If a *plan* element has the HTML equivalent of a *data-no-render* property, the plan component will not render.
@@ -82,7 +89,7 @@ There are a variety of use cases for this.
 | picto         | PlanPicto                                           |                                                          |
 | css           |                                                     |                                                          |
 | created       | `(el: HTMLElement \| SVGElement, data:any) => void` | Very useful. Look at textedit code to see how they do it |
-| on            | `{...(event: () => {})}`                            | [Event listeners](/intro/events)                                          |
+| on            | `{...(event: () => {})}`                            | [Event listeners](intro/events.md)                       |
 | buttons       | `{before: any[], after: any[]}`                     |                                                          |
 | action        | Function                                            |                                                          |
 | animation     | any                                                 |                                                          |

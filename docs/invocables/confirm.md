@@ -1,3 +1,7 @@
+---
+sidebar_position: 3
+---
+
 # Confirm
 
 ## Usage
@@ -25,4 +29,3 @@ if (res) {
 | afterAgree    | String/Plan/HTMLElement | Content to be rendered to the right of the "Ok button
 | beforeDecline | String/Plan/HTMLElement | Content to be rendered to the left of the "Cancel" button
 | afterDecline  | String/Plan/HTMLElement | Content to be rendered to the right of the "Cancel" button
-

@@ -1,9 +1,13 @@
+---
+sidebar_position: 2
+---
+
 # Making an App
 This page guides you on how to make an application.
 
 ## Folder structure
 
-Application code is stored in `/c/programs` ([not .desktop files](intro/faq.md#what-is-a-desktop-file)).  
+Application code is stored in `/c/programs` ([not .desktop files](intro/faq.md#what-is-a-desktop-file)).
 Programs must include:
 * app manifest file
 * icon files
@@ -13,7 +17,7 @@ An entry point can be either `document` (an HTML file), or `module`, a Javascrip
 
 ## App Manifest
 
-The apps manager scans for app manifest files ending with app.manifest.json5 on first initialization. This file is essentially your application manifest. Stored in the popular JSON5 format, your app manifest covers all the meta-information such as its name, content, and identifier.  
+The apps manager scans for app manifest files ending with app.manifest.json5 on first initialization. This file is essentially your application manifest. Stored in the popular JSON5 format, your app manifest covers all the meta-information such as its name, content, and identifier.
 JSON5 is a more relaxed version of JSON, and allows comments and single-quotes.
 
 | Property                  | Type                | Description                                                                                                                                                             |
@@ -66,8 +70,8 @@ The string represents a single option considered `true`.
 
 ## Icons
 
-App icons should be in the program directory.  
-There are two variants that should be used: `icon-16` and `icon-32`, for 16x16 and 32x32 image sizes respectively.  
+App icons should be in the program directory.
+There are two variants that should be used: `icon-16` and `icon-32`, for 16x16 and 32x32 image sizes respectively.
 Icons may be PNGs or GIFs. Other image types may work but haven't been tested/relied upon.
 
 ## Module exports

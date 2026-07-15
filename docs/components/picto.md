@@ -1,6 +1,10 @@
+---
+sidebar_position: 3
+---
+
 # picto
 
-In Windows93, a picto is a small 16x16 or 32x32 component that serves as an icon.  
+In Windows93, a picto is a small 16x16 or 32x32 component that serves as an icon.
 These icons mostly represent files.
 
 **Usage:**
@@ -9,10 +13,9 @@ Picto uses the `ui-picto` component. The `value` prop is the picto's identifier 
 <details>
 <summary>Rendering logic</summary>
 
-
-> [!TIP]
-> Rendering logic is handled by `/42/ui/media/picto.js`
-
+:::tip
+Rendering logic is handled by `/42/ui/media/picto.js`
+:::
 
 Picto checks for the following in order:
 1. "transparent"
@@ -53,7 +56,7 @@ Here are the valid icons. With the exception of *transparent*, These are located
 * shutdown
 * documents
 * search-file
-* www[]().youtube.com
+* `www[]().youtube.com`
 * font
 * text
 * audio

@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # Boot process
 
 > `/bios/bios.js`, `/bios/boot.js`, `/bios/splash.js`
@@ -39,4 +43,3 @@ If the browser cannot run the required module-based boot path, `/bios/fail.js` r
 /bios/fail.js
 /desktop.js
 ```
-

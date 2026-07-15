@@ -1,8 +1,14 @@
+---
+sidebar_position: 7
+---
+
 # Developing an audio app
 
->[!TIP] Consider reading the [app guide](intro/making-app.md) before this section.
+:::tip
+Consider reading the [app guide](intro/making-app.md) before this section.
+:::
 
-Audio apps must be module-based.  
+Audio apps must be module-based.
 Audio apps may have additional properties in their manifest:
 
 | Property              | Type    | Description                                                                 |

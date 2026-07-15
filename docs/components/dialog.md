@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # dialog
 
 The ui-dialog component allows developers to create windows.
@@ -11,7 +15,9 @@ var somedialog = await dialog({width: 300, height: 200, picto: "warning", label:
 
 ## Events
 
-> [!TIP] Learn more about events in the [events documentation](../intro/events.md)
+:::tip
+Learn more about events in the [events documentation](../intro/events.md)
+:::
 
 The following events are emitted by the dialog component:
 
@@ -29,7 +35,7 @@ The following events are emitted by the dialog component:
 
 ### Dialog Options
 
-| Property       | Type                    | Description 
+| Property       | Type                    | Description
 |----------------|-------------------------|-------------
 | `x`            | Int                     | The x coordinate of where your dialog will pop up
 | `y`            | Int                     | The y coordinate of where your dialog will pop up
@@ -76,7 +82,9 @@ Available JSON options:
 
 
 ### moveToCenter(json options)
-> [!CAUTION] [This method seems to be buggy]
+:::caution
+This method seems to be buggy
+:::
 Centers the dialog.
 
 Available JSON options:
@@ -84,5 +92,3 @@ Available JSON options:
 | Name         | Type    | Description
 | `animate`    | Boolean | Whether to animate or not (seems to be broken)
 | `fixOverlap` | Boolean | Whether to call fixOverlap (whatever that means)
-
-
