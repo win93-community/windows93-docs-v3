@@ -1,0 +1,28 @@
+
+# Frequently Asked Questions
+And frequent bugs encountered.
+
+## What is a .desktop file?
+The new version of the `lnk42` shortcut: a way to click-to-run your app. This filetype and usage is taken from [FreeDesktop](https://specifications.freedesktop.org/desktop-entry/latest/).
+
+Desktop apps must be prefixed with `[Desktop Entry]`, and can have three properties separated by newlines: `Name` and `Exec`. Name will determine the name of the file in the explorer/desktop, while Exec determines the application launched by the shortcut.
+If the shortcut lacks a name, the filename (without .desktop) will be used instead.
+
+The system will scan for programs in `/c/programs` that have `Exec` matching the [`command` property in the manifest](/docs/guide/making-app).
+Additionally, the file icon will be determined by the icon in the `Exec` program directory if no icon is provided.
+
+## What are some good practices to follow?
+* Being mindful of memory use and program efficiency (especially document-base)
+
+## What are bad practices to avoid?
+Polluting the global scope. Module-based apps can easily set variables such as `window.foo` or `globalThis.foo`. This should be avoided at all costs.
+Also, being reliant on global-scope APIs, specifically `globalThis.sys42` should be avoided.
+
+## `Invalid command` when I try to run my app
+There is likely a syntax error in your app manifest.
+
+## Where are the methods?
+sys42 makes use of [getters and setters](https://www.geeksforgeeks.org/javascript/javascript-getters-and-setters/) for properties, so you can access them directly instead of calling a method. For example, instead of `myFolder.setValue("bleh")`, you can simply set `myFolder.value = "bleh"` and the ui will update automatically. This follows sys42's [reactive](https://vuejs.org/guide/extras/reactivity-in-depth.html#what-is-reactivity) programming paradigm.
+
+## `Failed to fetch dynamically imported module`
+You messed up the path to an import somewhere. This error gives no stack trace, so you will have to check your imports manually or run a linter or bundler to find the error.

@@ -19,7 +19,7 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/intro/basics">
+            to="/docs/guide/basics">
             Get Started
           </Link>
         </div>
@@ -44,7 +44,7 @@ export default function Home(): ReactNode {
                 <p>
                   Learn the basics of creating apps for Windows 93, including folder structure and the Plan UI system.
                 </p>
-                <Link to="/docs/intro/basics">Read the guide</Link>
+                <Link to="/docs/guide/basics">Read the guide</Link>
               </div>
               <div className={clsx('col col--4')}>
                 <Heading as="h3">Components</Heading>

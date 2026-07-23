@@ -3,7 +3,7 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'Windows93 V3 Docs',
+  title: 'Windows93 Docs',
   tagline: 'Developer documentation for Windows 93 V3',
   favicon: 'img/favicon.ico',
 
@@ -48,12 +48,26 @@ const config: Config = {
   ],
 
   themeConfig: {
+    algolia: {
+      appId: "OQ5CXJCT05",
+      apiKey: "c7f0b8f8ea85f0c0dda9f1884da5c540",
+      indexName: "windows93-docs",
+    },
+
     colorMode: {
       defaultMode: 'light',
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'Windows93 V3 Docs',
+      title: 'Windows93 Docs',
+      hideOnScroll: true,
+      logo: {
+        alt: '',
+        src: 'img/windows93-48.png',
+        srcDark: 'img/windows93-48-white.png',
+        width: 32,
+        height: 32,
+      },
       items: [
         {
           type: 'docSidebar',
@@ -69,9 +83,9 @@ const config: Config = {
         },
         {
           type: 'docSidebar',
-          sidebarId: 'invocables',
+          sidebarId: 'api',
           position: 'left',
-          label: 'Invocables',
+          label: 'API',
         },
         {
           type: 'docSidebar',
@@ -99,11 +113,11 @@ const config: Config = {
           items: [
             {
               label: 'Getting Started',
-              to: '/docs/intro/basics',
+              to: '/docs/guide/basics',
             },
             {
               label: 'FAQ',
-              to: '/docs/intro/faq',
+              to: '/docs/guide/faq',
             },
           ],
         },
@@ -130,6 +144,10 @@ const config: Config = {
             {
               label: 'V2 Docs',
               href: 'https://docsv2.win93.xyz',
+            },
+            {
+              label: 'Wiki',
+              href: 'https://wiki.win93.xyz',
             },
           ],
         },

@@ -1,6 +1,3 @@
----
-sidebar_position: 4
----
 
 # Explorer internals
 
@@ -12,9 +9,9 @@ Additionally, on some browsers, the Windows93 HTML document gets unfocused after
 Toggling hidden files on the desktop also seems to reset the icon arrangement. Icons will be sorted into columns (in semi-alphabetical order) immediately on use of this keyboard shortcut.
 
 ## .directory files
-`.directory files` are present in special system directories to dictate behavior. They use the same INI-based format as [.desktop files](../intro/faq.md), requiring a `[Desktop Entry]` header.
+`.directory files` are present in special system directories to dictate behavior. They use the same INI-based format as [.desktop files](/docs/guide/faq), requiring a `[Desktop Entry]` header.
 However, unlike `.desktop`, `.directory` files are not associated with TextEdit, and instead open in base64 viewer.
-Directory files only support an Icon property, which must be a [valid picto](../components/picto.md) (otherwise, it will default to "folder"). Properties such as name, exec, etc are not supported.
+Directory files only support an Icon property, which must be a [valid picto](/docs/gui/picto) (otherwise, it will default to "folder"). Properties such as name, exec, etc are not supported.
 
 ## Extending explorer
 The trash manager extends explorer by adding a few buttons to the navbar.
@@ -46,3 +43,7 @@ This is done with an event listener.
       }
     })
 ```
+
+## desktopFolder
+
+The desktop is a `ui-explorer` instance that has an HTML id of `desktopFolder`, making it easy to move icons around. This can likely be extended for other folders with some patching.
