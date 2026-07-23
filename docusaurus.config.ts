@@ -49,9 +49,9 @@ const config: Config = {
 
   themeConfig: {
     algolia: {
-      appId: "OQ5CXJCT05",
-      apiKey: "c7f0b8f8ea85f0c0dda9f1884da5c540",
-      indexName: "windows93-docs",
+      appId: "2U7TCHQYIH",
+      apiKey: "961d19b9c168c894efd42154f81c81b5",
+      indexName: "Win93 Docs Algolia",
     },
 
     colorMode: {
