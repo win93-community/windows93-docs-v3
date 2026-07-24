@@ -11,6 +11,8 @@ const config: Config = {
     v4: true,
   },
 
+  plugins: ["@docsearch/docusaurus-adapter"],
+
   url: 'https://docs.win93.xyz',
   baseUrl: '/',
 
@@ -48,10 +50,16 @@ const config: Config = {
   ],
 
   themeConfig: {
-    algolia: {
+    docsearch: {
       appId: "2U7TCHQYIH",
       apiKey: "961d19b9c168c894efd42154f81c81b5",
       indexName: "Win93 Docs Algolia",
+      askAi: {
+        agentStudio: true,
+        assistantId: "06787827-5fb7-407c-a84c-8464c6844c71",
+        sidePanel: true,
+      },
+      contextualSearch: true,
     },
 
     colorMode: {
