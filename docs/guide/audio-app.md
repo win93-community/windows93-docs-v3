@@ -14,7 +14,11 @@ Audio apps may have additional properties in their manifest:
 | **hideBypassButton**  | boolean | Whether to hide the bypass button on the top left corner of the window      |
 | **hideAudioIOButton** | boolean | Whether to hide the Audio IO settings button in the top right of the window |
 
-Audio apps will also return a new property within the `app` parameter, `audioPipe`.
-
-## Notes
-This is all that exists for audio apps in this documentation. I understand none of the code used by effects, etc.
+## Extended app object
+Audio apps extend the app object with the following properties:
+| Property | Type | Description |
+|----------|------|-------------|
+| **mixer** | AudioMixer | unknown |
+| **context** | unknown | unknown |
+| **audioPipe** | unknown | unknown |
+| **initPipe** | unknown | Should not be used, this is done automatically. |
