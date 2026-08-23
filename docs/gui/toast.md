@@ -24,29 +24,29 @@ const myToast = toast({
 
 ## Method parameters
 
-| Parameter | Type          | Required                  | Default | Description                                  |
-|-----------|---------------|---------------------------|---------|----------------------------------------------|
-| `message` | String/object | Not if options is present |         | Short dialog message                         |
-| `options` | Object        | Not if message is present |         | Contains all toast configuration properties. |
+| Parameter | Type          | Required                  | Description                                  |
+|-----------|---------------|---------------------------|----------------------------------------------|
+| `message` | String/object | Not if options is present | Short dialog message                         |
+| `options` | Object        | Not if message is present | Contains all toast configuration properties. |
 
 ### Options
 
-| Property             | Type                                                     | Required | Default                           | Description                             |
-|----------------------|----------------------------------------------------------|----------|-----------------------------------|-----------------------------------------|
-| `message`            | String                                                   | Yes      |                                   | The message to display in the toast.    |
-| `picto`              | Picto                                                    | No       |                                   | [A picto element](/docs/gui/picto). |
-| `contained`          | Boolean                                                  | No       |                                   |                                         |
-| `icon`               | String                                                   | No       |                                   | Icon path.                              |
-| `label`              | String                                                   | No       |                                   |                                         |
-| `footer`             | String                                                   | No       |                                   |                                         |
-| `beforeContent`      | String                                                   | No       |                                   |                                         |
-| `closeable`          | Boolean                                                  | No       |                                   |                                         |
-| `afterContent`       | String                                                   | No       |                                   |                                         |
-| `closeOnContextMenu` | Boolean                                                  | No       |                                   |                                         |
-| `animateFrom`        | Object: `{translate: String(percentage), opacity: Number}` | No       | `{ translate: "100%", opacity: 0 }` |                                         |
-| `timeout`            | Integer                                                  | No       | 500                               |                                         |
-| `animateTo`          | Object: `{translate: String(percentage), opacity: Number}` | No       |                                  |                                         |
-| `container`          | HTMLElement                                              | No       | document.documentElement          |                                         |
+| Property             | Type                                                     | Description                             |
+|----------------------|----------------------------------------------------------|-----------------------------------------|
+| `message`            | String                                                   | Required. The message to display in the toast.    |
+| `picto`              | Picto                                                    | [A picto element](/docs/gui/picto). |
+| `contained`          | Boolean                                                  |                                         |
+| `icon`               | String                                                   | Icon path.                              |
+| `label`              | String                                                   |
+| `footer`             | String                                                   |
+| `beforeContent`      | String                                                   |
+| `closeable`          | Boolean                                                  |
+| `afterContent`       | String                                                   |
+| `closeOnContextMenu` | Boolean                                                  |
+| `animateFrom`        | Object: `{translate: String(percentage), opacity: Number}` | Default: `{ translate: "100%", opacity: 0 }`                                        |
+| `timeout`            | Integer                                                  |  Default: 500                                       |
+| `animateTo`          | Object: `{translate: String(percentage), opacity: Number}` |                                         |
+| `container`          | HTMLElement                                              | Default: document.documentElement                                        |
 
 ## Examples
 
