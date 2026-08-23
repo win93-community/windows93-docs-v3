@@ -18,6 +18,10 @@ Additionally, the file icon will be determined by the icon in the `Exec` program
 Polluting the global scope. Module-based apps can easily set variables such as `window.foo` or `globalThis.foo`. This should be avoided at all costs.
 Also, being reliant on global-scope APIs, specifically `globalThis.sys42` should be avoided.
 
+## What is public and what is private?
+This question is difficult - everything is modular, and everything is exported - so by definition everything should be considered public. However, for the purposes of this documentation, private modules (referred to as *internals* or *system APIs*) are the **modules that builtin apps don't directly access**.  
+For example, the [UI components](../gui/index.mdx) are directly accessed by apps, so they would be considered to be public APIs. However, the [mimetypes manager](../internals/managers/mimetypesManager.md) is only accessed by other APIs, and is considered a system-level module.
+
 ## `Invalid command` when I try to run my app
 There is likely a syntax error in your app manifest.
 

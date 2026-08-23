@@ -1,7 +1,7 @@
 
 # Document vs module
 
-The first thing you have to decide when starting your app is whether to base your app on HTML or JavaScript.
+The first thing you have to decide when starting your app is whether to base your app on **HTML or JavaScript**.
 
 You can always mix-and-match both in your app, but your program must have a *base*. This base will be your entry point.
 
@@ -9,7 +9,7 @@ You can always mix-and-match both in your app, but your program must have a *bas
 > Now, developers are encouraged to use the document-based approach if their app is relatively self-contained.
 
 ## Document
-Document, or the HTML entry point, is similar to building a website. Your document will run in an iFrame, but is able to communicate with the system using sys42.
+Document, or the **HTML** entry point, is similar to building a website. Your document will run in an iFrame, but is able to communicate with the system using sys42.
 A good example of this type of app is [Trollbox](https://github.com/win93-community/programs/tree/main/network/Trollbox). It is relatively self-contained, and would be able to run standalone without Windows 93.
 
 Rule of thumb: If your app can run standalone with little to no reliance on Windows 93 and/or the sys42 framework, it should be document-based.
@@ -17,7 +17,7 @@ Rule of thumb: If your app can run standalone with little to no reliance on Wind
 This will use up significantly more memory and computational power. Globals in your program will not be available in any other program. [This shouldn't matter anyway since you shouldn't be setting globals](/docs/guide/faq#what-are-bad-practices-to-avoid).
 
 ## Module
-Module uses a JavaScript file as an entry point. UI elements created will not go in iFrames.
-To create GUI elements, developers should use the `plan` system.
+Module uses a **JavaScript** file as an entry point. UI elements created will not go in iFrames.
+To create GUI elements, developers should use the [*plan*](/docs/guide/plan) system.
 
 Module requires certain exports. Read more [here](/docs/guide/making-app#module-exports).
