@@ -1,5 +1,5 @@
 
-# Developing an audio app
+# Developing an audio effect
 
 :::tip
 Consider reading the [app guide](/docs/guide/making-app) before this section.

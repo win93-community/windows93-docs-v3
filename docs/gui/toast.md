@@ -12,7 +12,7 @@ A [`notif`](/docs/gui/notif) is a tooltip-like notification that is anchored to 
 
 Modular:
 ```js
-import { toast } from "/42/ui/components/toasts.js"
+import { toast } from "/42/ui/components/toast.js"
 // Or
 const { toast } = sys42
 
