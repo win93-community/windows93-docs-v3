@@ -69,7 +69,7 @@ Icons may be PNGs or GIFs. Other image types may work but haven't been tested/re
 
 ## Module exports
 Your entry point, the file at the manifest's *module* property, should export a function where it executes the program code.  
-All of the following exports pass along one parameter, `app`, which is the app instance.
+All of the following exports pass along one parameter, `app`, which is the [app instance](../api/app.md).
 
 * `launchApp`: Most powerful export. The apps manager expects apps using this export to create the UI itself.
 * `renderApp`: Main export. Expects plan to be returned, and creates a [`ui-dialog`](../gui/dialog.md) with `content` of the plan output. Only runs if launchApp is not present.

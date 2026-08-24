@@ -102,7 +102,7 @@ const config: Config = {
           label: 'Internals',
         },
         {
-          href: 'https://windows93.xyz',
+          href: 'https://windows93.net',
           label: 'Windows 93',
           position: 'right',
         },
@@ -147,7 +147,7 @@ const config: Config = {
           items: [
             {
               label: 'Windows 93',
-              href: 'https://windows93.xyz',
+              href: 'https://windows93.net',
             },
             {
               label: 'V2 Docs',
