@@ -3,7 +3,7 @@
 This page gives you a reference for all the supported `app.manifest.json5` properties.
 
 :::tip
-JSON5 doesn't support schemas, but you can use [this schema](/assets/manifest-schema.json) with JSONC or with JSON
+JSON5 doesn't support schemas, but you can use <a href="/manifest.schema.json">this schema</a> with JSONC or with JSON
 :::
 
 A manifest file can define a single app, or an array of app definitions. The `name` property is required for each app.
