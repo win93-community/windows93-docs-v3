@@ -39,7 +39,7 @@ const config: Config = {
         docs: {
           sidebarPath: './sidebars.ts',
           editUrl:
-            'https://github.com/win93-community/windows93-docs-v3/tree/master/',
+            'https://github.com/win93-community/windows93-docs-v3/edit/master/',
         },
         blog: false,
         theme: {

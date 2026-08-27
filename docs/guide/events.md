@@ -4,6 +4,12 @@
 :::tip
 You can dispatch events very easily. Use `EventTarget.dispatchEvent(new CustomEvent("eventName"))`.  
 For example, to reboot the system, use `window.dispatchEvent(new CustomEvent("ui:desktop.reboot"))`
+
+Alternatively, you can use the dispatch module:
+
+```js
+import { dispatch } from "/42/lib/event/dispatch.js"
+```
 :::
 
 Use `on` to listen to events within Plan.

@@ -29,4 +29,13 @@ There is likely a syntax error in your app manifest.
 sys42 makes use of [getters and setters](https://www.geeksforgeeks.org/javascript/javascript-getters-and-setters/) for properties, so you can access them directly instead of calling a method. For example, instead of `myFolder.setValue("bleh")`, you can simply set `myFolder.value = "bleh"` and the ui will update automatically. This follows sys42's [reactive](https://vuejs.org/guide/extras/reactivity-in-depth.html#what-is-reactivity) programming paradigm.
 
 ## `Failed to fetch dynamically imported module`
-You messed up the path to an import somewhere. This error gives no stack trace, so you will have to check your imports manually or run a linter or bundler to find the error.
+You messed up the path to a static import somewhere. This error gives no stack trace, so you will have to check your imports manually or run a linter or bundler to find the error.
+
+## Components show as HTML instead of an object in console
+Use `console.dir` instead of `console.log`.
+
+## What are encode/decode?
+Nothing to do with cryptography.
+
+Encode: files an app can save  
+Decode: files an app can open

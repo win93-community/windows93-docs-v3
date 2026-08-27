@@ -3,7 +3,12 @@ import type { SidebarsConfig } from "@docusaurus/plugin-content-docs";
 const sidebars: SidebarsConfig = {
   guide: [
     "guide/basics",
-    "guide/making-app",
+    {
+      type: "category",
+      label: "Making an App",
+      link: {type: "doc", id: "guide/making-app"},
+      items: ["guide/manifest"]
+    },
     "guide/document-vs-module",
     "guide/plan",
     "guide/events",
