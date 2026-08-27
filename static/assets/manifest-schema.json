@@ -1,0 +1,374 @@
+{
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"$defs": {
+		"manifest": {
+			"name": "App Manifest",
+			"type": "object",
+			"required": ["name"],
+			"properties": {
+				"name": {
+					"type": "string",
+					"description": "The name of the application."
+				},
+				"displayName": {
+					"type": "string",
+					"description": "The title of the app's desktop icon. Defaults to the app's name."
+				},
+				"command": {
+					"type": "string",
+					"description": "The command used in the terminal to open this app. If ommited, a command name is auto-generated based on the app's name."
+				},
+				"categories": {
+					"type": "array",
+					"description": "A list of categories. This is currently unused.",
+					"items": {
+						"type": "string"
+					}
+				},
+				"module": {
+					"type": "string",
+					"description": "A relative path to a .js module from the manifest's folder."
+				},
+				"document": {
+					"type": "string",
+					"description": "A relative path to an .html document from the manifest's folder which will be iframed."
+				},
+				"icons": {
+					"type": "array",
+					"description": "A list of app icons distinguished by size (16x16 or 32x32). By default app icons are automatically searched in the root directory, where [ext] is png, gif, svg, or jpg:\n- icon-32.[ext]\n- icon-16.[ext]\n- icons/32x32/icon.[ext]\n- icons/16x16/icon.[ext]",
+					"$comment": "The search is more permissive than the description says but I don't want people relying on unintended implementation details",
+					"items": {
+						"type": ["object", "string"],
+						"description": "An app icon's size and source. If this is a string it is interpreted as a 32x32 icon.",
+						"required": ["src"],
+						"properties": {
+							"src": {
+								"type": "string",
+								"description": "A relative path to an icon"
+							},
+							"sizes": {
+								"enum": [
+									"16x16",
+									"32x32"
+								],
+								"description": "The resolution, in pixels, of the icon",
+								"default": "32x32"
+							}
+						},
+						"additionalProperties": false
+					}
+				},
+				"icon": {
+					"type": "string",
+					"description": "A relative path to a 32x32 icon. This is a shorthand for making a single icon in manifest.icons."
+				},
+				"about": {
+					"type": "string",
+					"description": "A relative path to an .md document. This being present will add a ? button which will show a help dialog."
+				},
+				"description": {
+					"type": "string",
+					"description": "Markdown text describing the app. This being present will add a ? button which will show a help dialog."
+				},
+				"license": {
+					"type": "string",
+					"description": "License of the app. This being present will add a ? button which will show a help dialog."
+				},
+				"authors": {
+					"type": "array",
+					"description": "A list of authors for the app. This being present will add a ? button which will show a help dialog.",
+					"items": {
+						"type": "object",
+						"required": ["name"],
+						"properties": {
+							"name": {
+								"type": "string",
+								"description": "The name of the author."
+							},
+							"web": {
+								"type": "string",
+								"description": "The homepage of the author."
+							},
+							"description": {
+								"type": "string",
+								"description": "A description of the author. This is currently unused and is bugged.",
+								"$comment": "The bug is not lazy loading md despite using md"
+							}
+						},
+						"additionalProperties": false
+					}
+				},
+				"multifile": {
+					"type": "boolean",
+					"description": "Accepts multiple files to be opened at once. Currently no Windows93 apps use this and this is untested.",
+					"default": false
+				},
+				"multiple": {
+					"type": "boolean",
+					"description": "Allows multiple command line parameters. If this is not set to true, each command line parameter gets launched as a seperate app.",
+					"default": false
+				},
+				"options": {
+					"type": "object",
+					"$comment": "This is probably doing something more`",
+					"description": "Passes default command arguments into."
+				},
+				"zoom": {
+					"enum": [1, 2],
+					"description": "On emulator apps, set whether to start the zoom at 100% or 200%.",
+					"default": 1
+				},
+				"animation": {
+					"type": "boolean",
+					"description": "Whether or not the window has enter and exit animations.",
+					"default": false
+				},
+				"decode": {
+					"description": "For apps which can open files. Options for what types of files the app can open.",
+					"$ref": "#/$defs/encodeDecode",
+					"unevaluatedProperties": false
+				},
+				"encode": {
+					"description": "For apps which can save files. By default, this uses the app's \"decode\" options.",
+					"$ref": "#/$defs/encodeDecode",
+					"unevaluatedProperties": false
+				},
+				"tray": {
+					"type": "boolean",
+					"description": "Marks an app as a tray app, calling the module's \"renderTray\" function at startup to put in the system tray.",
+					"default": false
+				},
+				"solo": {
+					"type": "boolean",
+					"description": "If true, only one instance of this app can be opened at a time.",
+					"default": false
+				},
+				"hasAudioInput": {
+					"type": "boolean",
+					"description": "Marks an app as an audio app (apps which take in audio input).",
+					"default": false
+				},
+				"hasAudioOutput": {
+					"type": "boolean",
+					"description": "Set to false to prevents audio apps from being added to the mixer. This has no effect on apps which don't take in audio input.",
+					"default": true
+				},
+				"hideBypassButton": {
+					"type": "boolean",
+					"description": "Hides the bypass button on audio apps.",
+					"default": false
+				},
+				"hideAudioIOButton": {
+					"type": "boolean",
+					"description": "Hides the audio IO button on audio apps.",
+					"default": false
+				},
+				"dialog": {
+					"type": "object",
+					"description": "Options to be passed into the dialog window. See https://docs.win93.xyz/docs/gui/dialog."
+				},
+				"picto": {
+					"type": "string",
+					"description": "A Pitco (https://docs.win93.xyz/docs/gui/picto) to be shown as the dialog's icon."
+				},
+				"catalogable": {
+					"type": "boolean",
+					"description": "Whether the app appears in the start menu.",
+					"default": true
+				},
+				"installable": {
+					"type": "boolean",
+					"$comment": "IframeViewer still uses this",
+					"description": "Holdover from the Windows93 v3 beta where apps could be installed. This currently has no effect."
+				},
+				"terminal": {
+					"type": "boolean",
+					"description": "Puts the app in a \"commands\" section of the terminal's help command.",
+					"default": false 
+				},
+				"suspendIntensiveTasks": {
+					"type": "boolean",
+					"description": "Use a low-power mode while the app is open.",
+					"default": false
+				},
+				"x": {
+					"type": "number",
+					"description": "The default X position of the window in pixels."
+				},
+				"y": {
+					"type": "number",
+					"description": "The default Y position of the window in pixels."
+				},
+				"width": {
+					"type": "number",
+					"description": "The default width of the window in pixels."
+				},
+				"height": {
+					"type": "number",
+					"description": "The default height of the window in pixels."
+				},
+				"modal": {
+					"type": "boolean",
+					"description": "If true, the window is rendered on top of the whole OS and darkens the background.",
+					"default": false
+				},
+				"stealFocus": {
+					"type": "boolean",
+					"description": "If false, the window will not be automatically focused when opening.",
+					"default": true
+				},
+				"clear": {
+					"type": "boolean",
+					"description": "If true, the window will not have a border.",
+					"default": false
+				},
+				"inset": {
+					"type": "boolean",
+					"description": "If true, the window will have an inset border around the content..",
+					"default": false
+				},
+				"header": {
+					"description": "A Plan (https://docs.win93.xyz/docs/guide/plan) rendered above the window's content."
+				},
+				"footer": {
+					"description": "A Plan (https://docs.win93.xyz/docs/guide/plan) rendered below the window's content."
+				},
+				"resizable": {
+					"type": "boolean",
+					"description": "If false, the window cannot be resized via the edges. This does not prevent the window from being maximized.",
+					"default": true
+				},
+				"maximizable": {
+					"type": "boolean",
+					"description": "If false, the window will not have the maximize button.",
+					"default": true
+				},
+				"minimizable": {
+					"type": "boolean",
+					"description": "If false, the window will not have the minimize button.",
+					"default": true
+				},
+				"maximized": {
+					"enum": [
+						false,
+						true,
+						"{{pointer.isTouch}}"
+					],
+					"description": "Whether or not the window will be maximized. If omitted it will be unmaximized but will save when the app is closed and reopened. The special \"{{pointer.isTouch}}\" value will maximize the window on touchscreen devices.",
+					"default": false
+				},
+				"dockable": {
+					"type": "boolean",
+					"description": "If false, the window will not appear in the taskbar.",
+					"default": true
+				},
+				"skipSave": {
+					"type": ["array", "boolean"],
+					"description": "A list of dialog properties to not save on disk, e.g. x, y, width, and height. By default, changing the app's size will save when the user resizes it and reopens it. If this is set to true, no properties get saved.",
+					"items": { "type": "string" }
+				},
+				"agree": {
+					"type": ["boolean", "string"],
+					"description": "The message for the agree button in the lower left corner of the dialog. If set to \"true\", it becomes \"Ok\".",
+					"default": false
+				},
+				"beforeAgree": {
+					"description": "A Plan (https://docs.win93.xyz/docs/guide/plan) rendered before the agree button."
+				},
+				"afterAgree": {
+					"description": "A Plan (https://docs.win93.xyz/docs/guide/plan) rendered after the agree button."
+				},
+				"decline": {
+					"type": ["boolean", "string"],
+					"description": "The message for the decline button in the lower left corner of the dialog. If set to \"true\", it becomes \"Cancel\".",
+					"default": false
+				},
+				"beforeDecline": {
+					"description": "A Plan (https://docs.win93.xyz/docs/guide/plan) rendered before the decline button."
+				},
+				"afterDecline": {
+					"description": "A Plan (https://docs.win93.xyz/docs/guide/plan) rendered after the decline button."
+				},
+				"$schema": { "type": "string" }
+			},
+			"excludedProperties": true,
+			"additionalProperties": false
+		},
+		"encodeDecode": {
+			"type": "object",
+			"required": ["types"],
+			"properties": {
+				"startIn": {
+					"type": "string",
+					"description": "A path relative to the user's home directory of where to start when opening the file explorer."
+				},
+				"excludeAcceptAllOption": {
+					"type": "boolean",
+					"description": "Whether to have the \"All Files\" option in the explorer's filter. By default, the option is shown on decode and hidden on encode."
+				},
+				"types": {
+					"type": "array",
+					"description": "The types of files the app can open.",
+					"items": {
+						"type": "object",
+						"required": ["accept"],
+						"$comment": "This has two weird unused properties \"launch_type\" and \"action\" in normalizeManifest not referenced anywhere else.",
+						"properties": {
+							"accept": {
+								"type": ["object", "string", "array"],
+								"description": "Either a map from mimetypes to their extensions, a lone mimetype, or a list of mimetypes.",
+								"additionalProperties": {
+									"type": "array",
+									"description": "An array of file extensions.",
+									"items": { "type": "string" }
+								},
+								"items": { "type": "string" }
+							},
+							"description": {
+								"type": "string",
+								"description": "A title for the filename shown in the dialog picker."
+							},
+							"icons": {
+								"type": "array",
+								"description": "A list of different icon sizes.",
+								"items": {
+									"type": "object",
+									"description": "An icon.",
+									"required": ["sizes", "src"],
+									"properties": {
+										"sizes": {
+											"enum": [
+												"16x16",
+												"32x32"
+											],
+											"description": "The size of the icon."
+										},
+										"src": {
+											"type": "string",
+											"description": "A relative path from the module to an app image. It is expected that this is in the very specific format \".../[size]/[type]/[name].[ext]\" as /42/assets/icons/ automatically syslinks to it."
+										}
+									},
+									"additionalProperties": false
+								}
+							}
+						},
+						"additionalProperties": false
+					}
+				}
+			}
+		}
+	},
+	"anyOf": [
+		{
+			"$ref": "#/$defs/manifest"
+		},
+		{ 
+			"type": "array",
+			"name": "Manifest List",
+			"description": "Defines multiple applications in a single app.manifest.json5.",
+			"items": {
+				"$ref": "#/$defs/manifest"
+			}
+		}
+	]
+}
