@@ -51,7 +51,7 @@ export default function Home(): ReactNode {
                 <p>
                   Explore UI components like dialogs, explorers, toasts, and more that you can use in your apps.
                 </p>
-                <Link to="/docs/components/dialog">Browse components</Link>
+                <Link to="/docs/gui">Browse components</Link>
               </div>
               <div className={clsx('col col--4')}>
                 <Heading as="h3">Internals</Heading>
